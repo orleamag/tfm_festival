@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  line-height: 150%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/****************************** VARIABLES COLOR *************************/
+:root {
+  --primaryBlood: #9C1915;
+  --secondaryBlood: #C71F08;
+  --secondaryBrain: #D97292;
+  --btnActive: #610300;
+  --backgroundColor: #fff;
+  --detailText: #1D1312;
+  --genericText: #404040;
+  --selected: #43A164;
+  --black: #000;
+  /****************************** VARIABLES SPACES *************************/
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: "Jost", sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.header {
+  background: var(--primaryBlood);
+  display: flex;
+  justify-content: space-between;
+}
+.header .header__logo {
+  display: flex;
+}
+.header .header__logo .header__logo-movil {
+  width: 25%;
+  padding: 0.5rem 1rem;
+}
+.header .header__logo .header__logo-desktop {
+  width: 50%;
+  display: none;
+}
+.header .header__nav {
+  display: block;
+}
+@keyframes bugfix {
+  from {
+    padding: 0;
+  }
+  to {
+    padding: 0;
+  }
+}
+.header #overlay__button {
+  justify-content: center;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  padding: 26px 11px;
+  z-index: 5;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  background: var(--black);
+  width: 100%;
+}
+.header #overlay__button span {
+  height: 4px;
+  width: 35px;
+  border-radius: 2px;
+  background-color: var(--backgroundColor);
+  position: relative;
+  display: block;
+  transition: all 0.2s ease-in-out;
+}
+.header #overlay__button span:before {
+  top: -10px;
+  visibility: visible;
+}
+.header #overlay__button span:after {
+  top: 10px;
+}
+.header #overlay__button span:before, .header #overlay__button span:after {
+  height: 4px;
+  width: 35px;
+  border-radius: 2px;
+  background-color: var(--backgroundColor);
+  position: absolute;
+  content: "";
+  transition: all 0.2s ease-in-out;
+}
+.header #overlay__button:hover span, .header #overlay__button:hover span:before, .header #overlay__button:hover span:after {
+  background: var(--backgroundColor);
+}
+.header input[type=checkbox] {
+  display: none;
+}
+.header input[type=checkbox]:checked ~ #overlay {
+  bottom: 0;
+  transition: all 0.5s;
+}
+.header input[type=checkbox]:checked ~ #overlay__button:hover span, .header input[type=checkbox]:checked ~ #overlay__button span {
+  background: transparent;
+}
+.header input[type=checkbox]:checked ~ #overlay__button span:before {
+  transform: rotate(45deg) translate(7px, 7px);
+  opacity: 1;
+}
+.header input[type=checkbox]:checked ~ #overlay__button span:after {
+  transform: rotate(-45deg) translate(7px, -7px);
+}
+.header #overlay {
+  height: 60vh;
+  width: 100vw;
+  background: var(--black);
+  z-index: 2;
+  position: fixed;
+  bottom: -35rem;
+  transition: all 0.5s;
+}
+.header #overlay.active {
+  visibility: visible;
+}
+.header #overlay ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 90%;
+  padding-left: 0;
+  list-style-type: none;
+}
+.header #overlay ul li {
+  padding: 1.5rem;
+}
+.header #overlay ul li a {
+  color: var(--backgroundColor);
+  text-decoration: none;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.header #overlay ul li a:hover {
+  color: var(--genericText);
+}/*# sourceMappingURL=generic.css.map */
