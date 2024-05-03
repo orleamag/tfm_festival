@@ -2,19 +2,32 @@
     background: var(--primaryBlood);
     display: flex;
     justify-content: space-between;
+    align-items: center;
     .header__logo {
         display: flex;
         .header__logo-movil {
-            width: 25%;
-            padding: .5rem 1rem;
+            width: 30%;
+            padding: .5rem;
         }
         .header__logo-desktop {
-            width: 50%;
+            width: 125px;
             display: none;
+            padding: .5rem 1rem;
         }
     }
     .header__nav {
         display: block;
+    }
+    .header__icon {
+        display: flex;
+        padding-right: 1rem;
+        span {
+            color: var(--backgroundColor);
+            margin: 1rem;
+            &:hover {
+                color: var(--secondaryBrain);
+            }
+        }
     }
 
     @keyframes bugfix { from {padding:0;} to {padding:0;}}
@@ -33,21 +46,21 @@
         user-select: none;
         background: var(--black);
         width: 100%;
-    span {
-        height: 4px;
-        width: 35px;
-        border-radius: 2px;
-        background-color: var(--backgroundColor);
-        position: relative;
-        display: block;
-        transition: all .2s ease-in-out;
-        &:before {
-            top: -10px;
-            visibility: visible;
-        }
-        &:after {
-            top: 10px;
-        }
+        span {
+            height: 4px;
+            width: 35px;
+            border-radius: 2px;
+            background-color: var(--backgroundColor);
+            position: relative;
+            display: block;
+            transition: all .2s ease-in-out;
+            &:before {
+                top: -10px;
+                visibility: visible;
+            }
+            &:after {
+                top: 10px;
+            }
             &:before, &:after {
                 height: 4px;
                 width: 35px;
@@ -94,7 +107,7 @@
     z-index: 2;
     // visibility: hidden;
     position: fixed;
-    bottom: -35rem;
+    bottom: -60rem;
     transition: all .5s;
     &.active {
         visibility: visible;
@@ -109,14 +122,14 @@
         padding-left: 0;
         list-style-type: none;
             li {
-                padding: 1.5rem;
+                padding: 1rem;
                 a {
                     color: var(--backgroundColor);
                     text-decoration: none;
-                    font-size: 1.5rem;
+                    font-size: 1rem;
                     text-transform: uppercase;
                     &:hover {
-                        color: var(--genericText);
+                        color: var(--secondaryBrain);
                     }
                 }
             }
