@@ -1,0 +1,96 @@
+@media screen and (min-width: 767px) {
+
+    .header {
+        justify-content: inherit;
+        .header__logo {
+            flex: 1 auto;
+            .header__logo-movil {
+                width: 15%;
+            }
+        }
+        #overlay__button {
+            justify-content: center;
+            display: flex;
+            position: relative;
+            bottom: inherit;
+            padding: 26px;
+            z-index: 5;
+            cursor: pointer;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+            background: transparent;
+            width: auto;
+            order: 2;
+        }
+        #overlay {
+            height: 100vh;
+            width: 60vw;
+            bottom: inherit;
+            transition: all 0.5s;
+            top: 0;
+            right: -50rem;
+            ul {
+                justify-content: flex-start;
+                margin-top: 5rem;
+                li {
+                    padding: 2rem;
+                }
+            }
+        }
+        input[type=checkbox] {            
+            &:checked ~ #overlay {
+                // visibility: visible;
+                right: 0;
+                transition: all .5s;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .header {
+        justify-content: inherit;
+        .header__logo {
+            flex: 1 auto;
+            .header__logo-movil {
+                width: 15%;
+                display: none;
+            }
+            .header__logo-desktop {
+                display: flex;
+            }
+        }
+        .header__icon {
+            border-left: 2px solid white;
+            height: 25px;
+            display: flex;
+            align-items: center;
+            padding: 1rem;
+        }
+        #overlay__button {
+            display: none;
+        }
+        #overlay {
+            height: auto;
+            width: auto;
+            bottom: inherit;
+            transition: all 0.5s;
+            top: inherit;
+            right: inherit;
+            background: transparent;
+            position: inherit;
+            ul {
+                flex-direction: row;
+                margin-top: 0;
+                li {
+                    padding: 1rem;
+                    a {
+                        letter-spacing: 1px;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+        }
+    }
+}

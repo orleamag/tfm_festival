@@ -44,20 +44,33 @@ h1 {
   background: var(--primaryBlood);
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .header .header__logo {
   display: flex;
 }
 .header .header__logo .header__logo-movil {
-  width: 25%;
-  padding: 0.5rem 1rem;
+  width: 30%;
+  padding: 0.5rem;
 }
 .header .header__logo .header__logo-desktop {
-  width: 50%;
+  width: 125px;
   display: none;
+  padding: 0.5rem 1rem;
 }
 .header .header__nav {
   display: block;
+}
+.header .header__icon {
+  display: flex;
+  padding-right: 1rem;
+}
+.header .header__icon span {
+  color: var(--backgroundColor);
+  margin: 1rem;
+}
+.header .header__icon span:hover {
+  color: var(--secondaryBrain);
 }
 @keyframes bugfix {
   from {
@@ -132,7 +145,7 @@ h1 {
   background: var(--black);
   z-index: 2;
   position: fixed;
-  bottom: -35rem;
+  bottom: -60rem;
   transition: all 0.5s;
 }
 .header #overlay.active {
@@ -149,14 +162,106 @@ h1 {
   list-style-type: none;
 }
 .header #overlay ul li {
-  padding: 1.5rem;
+  padding: 1rem;
 }
 .header #overlay ul li a {
   color: var(--backgroundColor);
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-transform: uppercase;
 }
 .header #overlay ul li a:hover {
-  color: var(--genericText);
+  color: var(--secondaryBrain);
+}
+
+@media screen and (min-width: 767px) {
+  .header {
+    justify-content: inherit;
+  }
+  .header .header__logo {
+    flex: 1 auto;
+  }
+  .header .header__logo .header__logo-movil {
+    width: 15%;
+  }
+  .header #overlay__button {
+    justify-content: center;
+    display: flex;
+    position: relative;
+    bottom: inherit;
+    padding: 26px;
+    z-index: 5;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background: transparent;
+    width: auto;
+    order: 2;
+  }
+  .header #overlay {
+    height: 100vh;
+    width: 60vw;
+    bottom: inherit;
+    transition: all 0.5s;
+    top: 0;
+    right: -50rem;
+  }
+  .header #overlay ul {
+    justify-content: flex-start;
+    margin-top: 5rem;
+  }
+  .header #overlay ul li {
+    padding: 2rem;
+  }
+  .header input[type=checkbox]:checked ~ #overlay {
+    right: 0;
+    transition: all 0.5s;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header {
+    justify-content: inherit;
+  }
+  .header .header__logo {
+    flex: 1 auto;
+  }
+  .header .header__logo .header__logo-movil {
+    width: 15%;
+    display: none;
+  }
+  .header .header__logo .header__logo-desktop {
+    display: flex;
+  }
+  .header .header__icon {
+    border-left: 2px solid white;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+  }
+  .header #overlay__button {
+    display: none;
+  }
+  .header #overlay {
+    height: auto;
+    width: auto;
+    bottom: inherit;
+    transition: all 0.5s;
+    top: inherit;
+    right: inherit;
+    background: transparent;
+    position: inherit;
+  }
+  .header #overlay ul {
+    flex-direction: row;
+    margin-top: 0;
+  }
+  .header #overlay ul li {
+    padding: 1rem;
+  }
+  .header #overlay ul li a {
+    letter-spacing: 1px;
+    text-transform: capitalize;
+  }
 }/*# sourceMappingURL=generic.css.map */
