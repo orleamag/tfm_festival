@@ -5,7 +5,7 @@
         .header__logo {
             flex: 1 auto;
             .header__logo-movil {
-                width: 15%;
+                width: 70px;
             }
         }
         #overlay__button {
@@ -54,7 +54,7 @@
         .header__logo {
             flex: 1 auto;
             .header__logo-movil {
-                width: 15%;
+                width: 70px;
                 display: none;
             }
             .header__logo-desktop {
@@ -88,6 +88,8 @@
                     a {
                         letter-spacing: 1px;
                         text-transform: capitalize;
+                        font-size: 1rem;
+                        font-weight: 500;
                     }
                 }
             }
