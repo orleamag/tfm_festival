@@ -1,34 +1,32 @@
-* {box-sizing: border-box; padding: 0; margin: 0;}
-
-ul {list-style: none; padding: 0; line-height: 150%;}
-
-a {text-decoration: none;}
-
 /****************************** VARIABLES COLOR *************************/
-:root {
-    --primaryBlood: #9C1915;
-    --secondaryBlood: #C71F08;
-    --secondaryBrain: #D97292;
-    --btnActive: #610300;
-    --backgroundColor: #fff;
-    --detailText: #1D1312;
-    --genericText: #404040;
-    --selected: #43A164;
-    --black: #000;
+$primaryBlood: #9C1915;
+$secondaryBrain: #D97292;
+$btnActive: #610300;
+$backgroundColor: #fff;
+$genericText: #404040;
+$selected: #0BA674;
+$warning: #E04D26;
+$reject: #C71F08;
+$black: #000;
 
-    /****************************** VARIABLES SPACES *************************/
-    
-
-}
-
+/****************************** VARIABLES SPACES *************************/
+* {box-sizing: border-box; padding: 0; margin: 0;}
+ul {list-style: none; padding: 0; line-height: 150%;}
+a {text-decoration: none;}
 body {
     display: flex;
     flex-direction: column;
     height: 100vh;
     font-family: "Jost", sans-serif;
+    h1 {
+        font-size: 4rem;
+        font-weight: 700;
+    }
+    h2 {
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
 }
 
-h1 {
-    font-size: 4rem;
-    font-weight: 700;
-}
+
+

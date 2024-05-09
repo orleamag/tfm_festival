@@ -21,11 +21,11 @@ a {
   --secondaryBrain: #D97292;
   --btnActive: #610300;
   --backgroundColor: #fff;
-  --detailText: #1D1312;
   --genericText: #404040;
   --selected: #43A164;
   --black: #000;
-  /****************************** VARIABLES SPACES *************************/
+  --heroText: font
+  /****************************** VARIABLES SPACES *************************/ ;
 }
 
 body {
@@ -40,8 +40,13 @@ h1 {
   font-weight: 700;
 }
 
+h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
 .header {
-  background: var(--primaryBlood);
+  background: #9C1915;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -50,7 +55,7 @@ h1 {
   display: flex;
 }
 .header .header__logo .header__logo-movil {
-  width: 30%;
+  width: 70px;
   padding: 0.5rem;
 }
 .header .header__logo .header__logo-desktop {
@@ -162,12 +167,14 @@ h1 {
   list-style-type: none;
 }
 .header #overlay ul li {
-  padding: 1rem;
+  padding: 1.5rem;
 }
 .header #overlay ul li a {
   color: var(--backgroundColor);
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 2px;
   text-transform: uppercase;
 }
 .header #overlay ul li a:hover {
@@ -182,7 +189,7 @@ h1 {
     flex: 1 auto;
   }
   .header .header__logo .header__logo-movil {
-    width: 15%;
+    width: 70px;
   }
   .header #overlay__button {
     justify-content: center;
@@ -227,7 +234,7 @@ h1 {
     flex: 1 auto;
   }
   .header .header__logo .header__logo-movil {
-    width: 15%;
+    width: 70px;
     display: none;
   }
   .header .header__logo .header__logo-desktop {
@@ -263,5 +270,7 @@ h1 {
   .header #overlay ul li a {
     letter-spacing: 1px;
     text-transform: capitalize;
+    font-size: 1rem;
+    font-weight: 500;
   }
 }/*# sourceMappingURL=generic.css.map */
