@@ -1,8 +1,12 @@
 .header {
     background: $primaryBlood;
     display: flex;
+    width: 100%;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
+    top: 0;
+    z-index: 6;
     .header__logo {
         display: flex;
         .header__logo-movil {
@@ -36,7 +40,7 @@
     #overlay__button {
         justify-content: center;
         display: flex;
-        position: absolute;
+        position: fixed;
         bottom: 0;
         padding: 26px 11px;
         z-index: 5;
@@ -90,11 +94,11 @@
             }
             span {
                 &:before {
-                    transform: rotate(45deg) translate(7px, 7px;
+                    transform: rotate(45deg) translate(7px, 7px);
                     opacity: 1;
                 }
                 &:after {
-                    transform: rotate(-45deg) translate(7px, -7px;
+                    transform: rotate(-45deg) translate(7px, -7px);
                 }
             }
         }

@@ -1,3 +1,6 @@
+@charset "UTF-8";
+/****************************** VARIABLES COLOR *************************/
+/****************************** VARIABLES SPACES *************************/
 * {
   box-sizing: border-box;
   padding: 0;
@@ -14,33 +17,18 @@ a {
   text-decoration: none;
 }
 
-/****************************** VARIABLES COLOR *************************/
-:root {
-  --primaryBlood: #9C1915;
-  --secondaryBlood: #C71F08;
-  --secondaryBrain: #D97292;
-  --btnActive: #610300;
-  --backgroundColor: #fff;
-  --genericText: #404040;
-  --selected: #43A164;
-  --black: #000;
-  --heroText: font
-  /****************************** VARIABLES SPACES *************************/ ;
-}
-
 body {
   display: flex;
   flex-direction: column;
   height: 100vh;
   font-family: "Jost", sans-serif;
+  color: #404040;
 }
-
-h1 {
+body h1 {
   font-size: 4rem;
   font-weight: 700;
 }
-
-h2 {
+body h2 {
   font-size: 1.3rem;
   font-weight: 700;
 }
@@ -48,8 +36,12 @@ h2 {
 .header {
   background: #9C1915;
   display: flex;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 6;
 }
 .header .header__logo {
   display: flex;
@@ -71,11 +63,11 @@ h2 {
   padding-right: 1rem;
 }
 .header .header__icon span {
-  color: var(--backgroundColor);
+  color: #fff;
   margin: 1rem;
 }
 .header .header__icon span:hover {
-  color: var(--secondaryBrain);
+  color: #D97292;
 }
 @keyframes bugfix {
   from {
@@ -88,7 +80,7 @@ h2 {
 .header #overlay__button {
   justify-content: center;
   display: flex;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   padding: 26px 11px;
   z-index: 5;
@@ -96,14 +88,14 @@ h2 {
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
-  background: var(--black);
+  background: #000;
   width: 100%;
 }
 .header #overlay__button span {
   height: 4px;
   width: 35px;
   border-radius: 2px;
-  background-color: var(--backgroundColor);
+  background-color: #fff;
   position: relative;
   display: block;
   transition: all 0.2s ease-in-out;
@@ -119,13 +111,13 @@ h2 {
   height: 4px;
   width: 35px;
   border-radius: 2px;
-  background-color: var(--backgroundColor);
+  background-color: #fff;
   position: absolute;
   content: "";
   transition: all 0.2s ease-in-out;
 }
 .header #overlay__button:hover span, .header #overlay__button:hover span:before, .header #overlay__button:hover span:after {
-  background: var(--backgroundColor);
+  background: #fff;
 }
 .header input[type=checkbox] {
   display: none;
@@ -147,7 +139,7 @@ h2 {
 .header #overlay {
   height: 60vh;
   width: 100vw;
-  background: var(--black);
+  background: #000;
   z-index: 2;
   position: fixed;
   bottom: -60rem;
@@ -170,7 +162,7 @@ h2 {
   padding: 1.5rem;
 }
 .header #overlay ul li a {
-  color: var(--backgroundColor);
+  color: #fff;
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: bold;
@@ -178,7 +170,323 @@ h2 {
   text-transform: uppercase;
 }
 .header #overlay ul li a:hover {
-  color: var(--secondaryBrain);
+  color: #D97292;
+}
+
+.hero {
+  position: relative;
+  background-color: #fff;
+  color: #9C1915;
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  overflow: hidden;
+}
+.hero .content {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
+  padding-top: 8rem;
+  padding-bottom: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+.hero .content h1 {
+  position: relative;
+  z-index: 1;
+  font-size: 3rem;
+  text-transform: uppercase;
+  line-height: 120%;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #9C1915;
+}
+.hero .content .hero__btnSecondary {
+  position: relative;
+  background-color: #fff;
+  border: 2px solid #D97292;
+  color: #404040;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  z-index: 3;
+  margin: 0 auto;
+}
+.hero .content .hero__btnSecondary:hover {
+  background-color: #D97292;
+  color: #fff;
+  font-weight: 500;
+}
+.hero .waves {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 200px;
+  background-color: #9C1915;
+  transition: 500ms;
+}
+.hero .waves::before, .hero .waves::after {
+  content: "";
+  position: absolute;
+  width: 300vw;
+  height: 300vw;
+  top: -65vw;
+  left: 50%;
+  transform: translate(-50%, -75%);
+}
+.hero .waves::before {
+  border-radius: 44%;
+  background: rgb(255, 255, 255);
+  animation: waves 8s linear infinite;
+}
+.hero .waves::after {
+  border-radius: 44%;
+  background: rgba(255, 255, 255, 0.5);
+  animation: waves 15s linear infinite;
+}
+.hero .drops {
+  width: 140%;
+  height: 65vh;
+  margin-top: 3rem;
+  position: absolute;
+  overflow: hidden;
+  border-top: 15px solid #9C1915;
+  filter: url(#goo);
+  z-index: 1;
+  display: none;
+}
+.hero .drops .drip::before {
+  content: "🌢";
+  border-radius: 100%;
+  position: absolute;
+  top: -100%;
+  animation: falling 5s linear infinite;
+}
+@keyframes falling {
+  0% {
+    top: -100%;
+  }
+  50% {
+    top: 0%;
+  }
+  80% {
+    top: 80%;
+  }
+  100% {
+    top: 100%;
+  }
+}
+.hero .drops .drip:nth-child(1)::before {
+  content: "🌢";
+  color: #9C1915;
+  border-color: #9C1915;
+  box-sizing: border-box;
+  font-size: 25px;
+  animation-delay: -0.2s;
+  left: 327px;
+  margin-left: 15px;
+}
+.hero .drops .drip:nth-child(2)::before {
+  content: "🌢";
+  color: #9C1915;
+  border-color: #9C1915;
+  box-sizing: border-box;
+  font-size: 10px;
+  animation-delay: -0.4s;
+  left: 190px;
+  margin-left: 15px;
+}
+.hero .drops .drip:nth-child(3)::before {
+  content: "🌢";
+  color: #9C1915;
+  border-color: #9C1915;
+  box-sizing: border-box;
+  font-size: 22px;
+  animation-delay: -0.6s;
+  left: 2px;
+  margin-left: 15px;
+}
+.hero .drops .drip:nth-child(4)::before {
+  content: "🌢";
+  color: #9C1915;
+  border-color: #9C1915;
+  box-sizing: border-box;
+  font-size: 18px;
+  animation-delay: -0.8s;
+  left: 329px;
+  margin-left: 15px;
+}
+.hero .drops .drip:nth-child(5)::before {
+  content: "🌢";
+  color: #9C1915;
+  border-color: #9C1915;
+  box-sizing: border-box;
+  font-size: 6px;
+  animation-delay: -1s;
+  left: 448px;
+  margin-left: 15px;
+}
+.hero .drops .drip:nth-child(6)::before {
+  content: "🌢";
+  color: #9C1915;
+  border-color: #9C1915;
+  box-sizing: border-box;
+  font-size: 28px;
+  animation-delay: -1.2s;
+  left: 949px;
+  margin-left: 15px;
+}
+.hero .drops .drip:nth-child(7)::before {
+  content: "🌢";
+  color: #9C1915;
+  border-color: #9C1915;
+  box-sizing: border-box;
+  font-size: 15px;
+  animation-delay: -1.4s;
+  left: 618px;
+  margin-left: 15px;
+}
+.hero .drops .drip:nth-child(8)::before {
+  content: "🌢";
+  color: #9C1915;
+  border-color: #9C1915;
+  box-sizing: border-box;
+  font-size: 30px;
+  animation-delay: -1.6s;
+  left: 129px;
+  margin-left: 15px;
+}
+.hero .drops .drip:nth-child(9)::before {
+  content: "🌢";
+  color: #9C1915;
+  border-color: #9C1915;
+  box-sizing: border-box;
+  font-size: 9px;
+  animation-delay: -1.8s;
+  left: 666px;
+  margin-left: 15px;
+}
+.hero .drops .drip:nth-child(10)::before {
+  content: "🌢";
+  color: #9C1915;
+  border-color: #9C1915;
+  box-sizing: border-box;
+  font-size: 6px;
+  animation-delay: -2s;
+  left: 492px;
+  margin-left: 15px;
+}
+.hero .drops .drip:nth-child(11)::before {
+  content: "🌢";
+  color: #9C1915;
+  border-color: #9C1915;
+  box-sizing: border-box;
+  font-size: 25px;
+  animation-delay: -2.2s;
+  left: 157px;
+  margin-left: 15px;
+}
+.hero .drops .drip:nth-child(12)::before {
+  content: "🌢";
+  color: #9C1915;
+  border-color: #9C1915;
+  box-sizing: border-box;
+  font-size: 29px;
+  animation-delay: -2.4s;
+  left: 149px;
+  margin-left: 15px;
+}
+.hero .drops .drip:nth-child(13)::before {
+  content: "🌢";
+  color: #9C1915;
+  border-color: #9C1915;
+  box-sizing: border-box;
+  font-size: 30px;
+  animation-delay: -2.6s;
+  left: 294px;
+  margin-left: 15px;
+}
+.hero .drops .drip:nth-child(14)::before {
+  content: "🌢";
+  color: #9C1915;
+  border-color: #9C1915;
+  box-sizing: border-box;
+  font-size: 29px;
+  animation-delay: -2.8s;
+  left: 966px;
+  margin-left: 15px;
+}
+.hero .drops .drip:nth-child(15)::before {
+  content: "🌢";
+  color: #9C1915;
+  border-color: #9C1915;
+  box-sizing: border-box;
+  font-size: 30px;
+  animation-delay: -3s;
+  left: 927px;
+  margin-left: 15px;
+}
+.hero .drops .drip:nth-child(16)::before {
+  content: "🌢";
+  color: #9C1915;
+  border-color: #9C1915;
+  box-sizing: border-box;
+  font-size: 28px;
+  animation-delay: -3.2s;
+  left: 942px;
+  margin-left: 15px;
+}
+.hero .drops .drip:nth-child(17)::before {
+  content: "🌢";
+  color: #9C1915;
+  border-color: #9C1915;
+  box-sizing: border-box;
+  font-size: 23px;
+  animation-delay: -3.4s;
+  left: 889px;
+  margin-left: 15px;
+}
+.hero .drops .drip:nth-child(18)::before {
+  content: "🌢";
+  color: #9C1915;
+  border-color: #9C1915;
+  box-sizing: border-box;
+  font-size: 15px;
+  animation-delay: -3.6s;
+  left: 382px;
+  margin-left: 15px;
+}
+.hero .drops .drip:nth-child(19)::before {
+  content: "🌢";
+  color: #9C1915;
+  border-color: #9C1915;
+  box-sizing: border-box;
+  font-size: 5px;
+  animation-delay: -3.8s;
+  left: 678px;
+  margin-left: 15px;
+}
+.hero .drops .drip:nth-child(20)::before {
+  content: "🌢";
+  color: #9C1915;
+  border-color: #9C1915;
+  box-sizing: border-box;
+  font-size: 20px;
+  animation-delay: -4s;
+  left: 850px;
+  margin-left: 15px;
+}
+
+@keyframes waves {
+  0% {
+    transform: translate(-50%, -75%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -75%) rotate(360deg);
+  }
+}
+.container .container__content {
+  height: 100vh;
 }
 
 @media screen and (min-width: 767px) {
@@ -208,7 +516,7 @@ h2 {
   }
   .header #overlay {
     height: 100vh;
-    width: 60vw;
+    width: 50vw;
     bottom: inherit;
     transition: all 0.5s;
     top: 0;
@@ -224,6 +532,16 @@ h2 {
   .header input[type=checkbox]:checked ~ #overlay {
     right: 0;
     transition: all 0.5s;
+  }
+  .hero {
+    height: 70vh;
+  }
+  .hero .waves {
+    height: 250px;
+  }
+  .hero .drops {
+    display: block;
+    margin-top: 3.5rem;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -252,13 +570,16 @@ h2 {
   }
   .header #overlay {
     height: auto;
-    width: auto;
-    bottom: inherit;
+    display: flex;
+    width: 100%;
+    bottom: unset;
     transition: all 0.5s;
-    top: inherit;
-    right: inherit;
+    top: unset;
+    right: unset;
+    left: unset;
     background: transparent;
-    position: inherit;
+    position: relative;
+    justify-content: flex-end;
   }
   .header #overlay ul {
     flex-direction: row;
@@ -272,5 +593,14 @@ h2 {
     text-transform: capitalize;
     font-size: 1rem;
     font-weight: 500;
+  }
+  .hero .content {
+    max-width: 1090px;
+  }
+  .hero .waves {
+    height: 350px;
+  }
+  .hero .drops {
+    display: block;
   }
 }/*# sourceMappingURL=generic.css.map */
