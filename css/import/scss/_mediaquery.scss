@@ -25,7 +25,7 @@
         }
         #overlay {
             height: 100vh;
-            width: 60vw;
+            width: 50vw;
             bottom: inherit;
             transition: all 0.5s;
             top: 0;
@@ -44,6 +44,16 @@
                 right: 0;
                 transition: all .5s;
             }
+        }
+    }
+    .hero {
+        height: 70vh;
+        .waves {
+            height: 250px;
+        }
+        .drops {
+            display: block;
+            margin-top: 3.5rem;
         }
     }
 }
@@ -73,13 +83,16 @@
         }
         #overlay {
             height: auto;
-            width: auto;
-            bottom: inherit;
+            display: flex;
+            width: 100%;
+            bottom: unset;
             transition: all 0.5s;
-            top: inherit;
-            right: inherit;
+            top: unset;
+            right: unset;
+            left: unset;
             background: transparent;
-            position: inherit;
+            position: relative;
+            justify-content: flex-end;
             ul {
                 flex-direction: row;
                 margin-top: 0;
@@ -93,6 +106,17 @@
                     }
                 }
             }
+        }
+    }
+    .hero {
+        .content {
+            max-width: 1090px;
+        }
+        .waves {
+            height: 350px;
+        }
+        .drops {
+            display: block;
         }
     }
 }

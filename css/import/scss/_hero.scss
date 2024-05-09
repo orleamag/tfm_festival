@@ -1,0 +1,134 @@
+
+
+.hero {
+    position: relative;
+    background-color: $backgroundColor;
+    color: $primaryBlood;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    overflow: hidden;
+    .content {
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 2rem;
+        padding-top: 8rem;
+        padding-bottom: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        h1 {
+            position: relative;
+            z-index: 1;
+            font-size: 3rem;
+            text-transform: uppercase;
+            line-height: 120%;
+            text-align: center;
+            margin-bottom: 2rem;
+            color: $primaryBlood;
+        }
+        .hero__btnSecondary {
+            position: relative;
+            background-color: $backgroundColor;
+            border: 2px solid $secondaryBrain;
+            color: $genericText;
+            border-radius: 0.5rem;
+            padding: .5rem 1rem;
+            z-index: 3;
+            margin: 0 auto;
+            &:hover {
+                background-color: $secondaryBrain;
+                color: $backgroundColor;
+                font-weight: 500;
+            }
+        }
+    }
+    .waves {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 200px;
+        background-color: $primaryBlood;
+        transition: 500ms;
+        &::before,&::after {
+            content: '';
+            position: absolute;
+            width: 300vw;
+            height: 300vw;
+            top: -65vw;
+            left: 50%;
+            transform: translate(-50%, -75%);
+        }
+        &::before {
+            border-radius: 44%;
+            background: rgba(255, 255, 255, 1);
+            animation: waves 8s linear infinite;
+        }
+        &::after {
+            border-radius: 44%;
+            background: rgb(255, 255, 255, 0.5);
+            animation: waves 15s linear infinite;
+        }
+    }
+    .drops {
+        width: 140%;
+        height: 65vh;
+        margin-top: 3rem;
+        position: absolute;
+        overflow: hidden;
+        border-top: 15px solid $primaryBlood;
+        filter: url(#goo);
+        z-index: 1;
+        display: none;
+        .drip::before {
+            content: '\1F322';
+            border-radius: 100%;
+            position: absolute;
+            top: -100%;
+            animation: falling 5s linear infinite;
+        }
+    
+        @keyframes falling {
+            0% {
+                top: -100%;
+            }
+            50% {
+                top: 0%;
+            }
+            80% {
+                top: 80%;
+            }
+        
+            100% {
+                top: 100%;
+            }
+        }
+    
+        @for $i from 1 through 20 {
+            .drip:nth-child(#{$i})::before  {
+                content: '\1F322';
+                color: $primaryBlood;
+                border-color: $primaryBlood;
+                $width: random(30) + px;
+                $height: random(30) + px;
+                box-sizing: border-box;
+                font-size: $width;
+                // text-shadow: 0px 1px 2px var(--btnActive);
+                animation-delay: -$i * 0.2s;
+                left: random(1100) + px;
+                margin-left: 15px;
+            }
+        }
+    }
+}
+
+
+@keyframes waves {
+    0% {
+        transform: translate(-50%, -75%) rotate(0deg);
+    }
+    
+    100% {
+        transform: translate(-50%, -75%) rotate(360deg);
+    }
+}
