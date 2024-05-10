@@ -1,6 +1,8 @@
 @charset "UTF-8";
 /****************************** VARIABLES COLOR *************************/
+/****************************** VARIABLES TEXT *************************/
 /****************************** VARIABLES SPACES *************************/
+/****************************** RESET *************************/
 * {
   box-sizing: border-box;
   padding: 0;
@@ -21,16 +23,14 @@ body {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  font-family: "Jost", sans-serif;
+  font: 400 1rem/150% "Jost", sans-serif;
   color: #404040;
 }
 body h1 {
-  font-size: 4rem;
-  font-weight: 700;
+  font: 500 1.5rem/120% "Jost", sans-serif;
 }
 body h2 {
-  font-size: 1.3rem;
-  font-weight: 700;
+  font: 500 1.25rem/120% "Jost", sans-serif;
 }
 
 .header {
@@ -164,8 +164,7 @@ body h2 {
 .header #overlay ul li a {
   color: #fff;
   text-decoration: none;
-  font-size: 1.5rem;
-  font-weight: bold;
+  font: 700 1.5rem/120% "Jost", sans-serif;
   letter-spacing: 2px;
   text-transform: uppercase;
 }
@@ -191,12 +190,11 @@ body h2 {
   display: flex;
   flex-direction: column;
 }
-.hero .content h1 {
+.hero .content .hero__text {
   position: relative;
   z-index: 1;
-  font-size: 3rem;
+  font: 700 3rem/120% "Jost", sans-serif;
   text-transform: uppercase;
-  line-height: 120%;
   text-align: center;
   margin-bottom: 2rem;
   color: #9C1915;
@@ -214,7 +212,6 @@ body h2 {
 .hero .content .hero__btnSecondary:hover {
   background-color: #D97292;
   color: #fff;
-  font-weight: 500;
 }
 .hero .waves {
   position: absolute;
@@ -281,9 +278,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 25px;
+  font-size: 22px;
   animation-delay: -0.2s;
-  left: 327px;
+  left: 984px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(2)::before {
@@ -291,9 +288,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 10px;
+  font-size: 5px;
   animation-delay: -0.4s;
-  left: 190px;
+  left: 217px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(3)::before {
@@ -301,9 +298,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 22px;
+  font-size: 13px;
   animation-delay: -0.6s;
-  left: 2px;
+  left: 1067px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(4)::before {
@@ -311,9 +308,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 18px;
+  font-size: 1px;
   animation-delay: -0.8s;
-  left: 329px;
+  left: 639px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(5)::before {
@@ -321,9 +318,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 6px;
+  font-size: 13px;
   animation-delay: -1s;
-  left: 448px;
+  left: 329px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(6)::before {
@@ -331,9 +328,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 28px;
+  font-size: 1px;
   animation-delay: -1.2s;
-  left: 949px;
+  left: 89px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(7)::before {
@@ -341,9 +338,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 15px;
+  font-size: 2px;
   animation-delay: -1.4s;
-  left: 618px;
+  left: 73px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(8)::before {
@@ -351,9 +348,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 30px;
+  font-size: 6px;
   animation-delay: -1.6s;
-  left: 129px;
+  left: 293px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(9)::before {
@@ -361,9 +358,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 9px;
+  font-size: 13px;
   animation-delay: -1.8s;
-  left: 666px;
+  left: 120px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(10)::before {
@@ -371,9 +368,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 6px;
+  font-size: 2px;
   animation-delay: -2s;
-  left: 492px;
+  left: 733px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(11)::before {
@@ -381,9 +378,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 25px;
+  font-size: 11px;
   animation-delay: -2.2s;
-  left: 157px;
+  left: 391px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(12)::before {
@@ -391,9 +388,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 29px;
+  font-size: 4px;
   animation-delay: -2.4s;
-  left: 149px;
+  left: 256px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(13)::before {
@@ -401,9 +398,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 30px;
+  font-size: 7px;
   animation-delay: -2.6s;
-  left: 294px;
+  left: 935px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(14)::before {
@@ -411,9 +408,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 29px;
+  font-size: 4px;
   animation-delay: -2.8s;
-  left: 966px;
+  left: 72px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(15)::before {
@@ -421,9 +418,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 30px;
+  font-size: 2px;
   animation-delay: -3s;
-  left: 927px;
+  left: 462px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(16)::before {
@@ -431,9 +428,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 28px;
+  font-size: 16px;
   animation-delay: -3.2s;
-  left: 942px;
+  left: 945px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(17)::before {
@@ -441,9 +438,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 23px;
+  font-size: 8px;
   animation-delay: -3.4s;
-  left: 889px;
+  left: 939px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(18)::before {
@@ -451,9 +448,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 15px;
+  font-size: 30px;
   animation-delay: -3.6s;
-  left: 382px;
+  left: 125px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(19)::before {
@@ -461,9 +458,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 5px;
+  font-size: 24px;
   animation-delay: -3.8s;
-  left: 678px;
+  left: 535px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(20)::before {
@@ -473,7 +470,7 @@ body h2 {
   box-sizing: border-box;
   font-size: 20px;
   animation-delay: -4s;
-  left: 850px;
+  left: 7px;
   margin-left: 15px;
 }
 
@@ -591,8 +588,7 @@ body h2 {
   .header #overlay ul li a {
     letter-spacing: 1px;
     text-transform: capitalize;
-    font-size: 1rem;
-    font-weight: 500;
+    font: 600 1rem/150% "Jost", sans-serif;
   }
   .hero .content {
     max-width: 1090px;

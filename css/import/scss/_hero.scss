@@ -16,12 +16,11 @@
         padding-bottom: 1.5rem;
         display: flex;
         flex-direction: column;
-        h1 {
+        .hero__text {
             position: relative;
             z-index: 1;
-            font-size: 3rem;
+            font: $jost-bold-48-120;
             text-transform: uppercase;
-            line-height: 120%;
             text-align: center;
             margin-bottom: 2rem;
             color: $primaryBlood;
@@ -38,7 +37,6 @@
             &:hover {
                 background-color: $secondaryBrain;
                 color: $backgroundColor;
-                font-weight: 500;
             }
         }
     }
@@ -113,7 +111,6 @@
                 $height: random(30) + px;
                 box-sizing: border-box;
                 font-size: $width;
-                // text-shadow: 0px 1px 2px var(--btnActive);
                 animation-delay: -$i * 0.2s;
                 left: random(1100) + px;
                 margin-left: 15px;
