@@ -9,7 +9,27 @@ $warning: #E04D26;
 $reject: #C71F08;
 $black: #000;
 
+/****************************** VARIABLES TEXT *************************/
+$jost-bold-48-120: 700 3rem/120% "Jost", sans-serif;
+$jost-bold-24-120: 700 1.5rem/120% "Jost", sans-serif;
+$jost-semb-16-150: 600 1rem/150% "Jost", sans-serif;
+$jost-med-24-120: 500 1.5rem/120% "Jost", sans-serif;
+$jost-med-20-120: 500 1.25rem/120% "Jost", sans-serif;
+$jost-reg-18-120: 400 1.125rem/120% "Jost", sans-serif;
+$jost-reg-16-150: 400 1rem/150% "Jost", sans-serif;
+$jost-lig-16-150: 300 1rem/150% "Jost", sans-serif;
+
 /****************************** VARIABLES SPACES *************************/
+$space-none: 0;
+$space-xs: 0.25rem;
+$space-s: 0.5rem;
+$space-base: 1rem;
+$space-m: 1.5rem;
+$space-l: 2rem;
+$space-xl: 2.5rem;
+$space-xxl: 3rem;
+
+/****************************** RESET *************************/
 * {box-sizing: border-box; padding: 0; margin: 0;}
 ul {list-style: none; padding: 0; line-height: 150%;}
 a {text-decoration: none;}
@@ -17,15 +37,13 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    font-family: "Jost", sans-serif;
+    font: $jost-reg-16-150;
     color: $genericText;
     h1 {
-        font-size: 4rem;
-        font-weight: 700;
+        font: $jost-med-24-120;
     }
     h2 {
-        font-size: 1.3rem;
-        font-weight: 700;
+        font: $jost-med-20-120;
     }
 }
 

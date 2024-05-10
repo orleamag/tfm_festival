@@ -130,8 +130,7 @@
                 a {
                     color: $backgroundColor;
                     text-decoration: none;
-                    font-size: 1.5rem;
-                    font-weight: bold;
+                    font: $jost-bold-24-120;
                     letter-spacing: 2px;
                     text-transform: uppercase;
                     &:hover {
