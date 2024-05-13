@@ -180,6 +180,7 @@ body h2 {
   display: flex;
   align-items: flex-start;
   overflow: hidden;
+  margin-bottom: 1rem;
 }
 .hero .content {
   max-width: 100%;
@@ -278,9 +279,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 22px;
+  font-size: 27px;
   animation-delay: -0.2s;
-  left: 984px;
+  left: 101px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(2)::before {
@@ -288,9 +289,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 5px;
+  font-size: 19px;
   animation-delay: -0.4s;
-  left: 217px;
+  left: 201px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(3)::before {
@@ -298,9 +299,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 13px;
+  font-size: 2px;
   animation-delay: -0.6s;
-  left: 1067px;
+  left: 111px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(4)::before {
@@ -308,9 +309,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 1px;
+  font-size: 29px;
   animation-delay: -0.8s;
-  left: 639px;
+  left: 626px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(5)::before {
@@ -318,9 +319,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 13px;
+  font-size: 19px;
   animation-delay: -1s;
-  left: 329px;
+  left: 117px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(6)::before {
@@ -328,9 +329,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 1px;
+  font-size: 10px;
   animation-delay: -1.2s;
-  left: 89px;
+  left: 726px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(7)::before {
@@ -338,9 +339,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 2px;
+  font-size: 22px;
   animation-delay: -1.4s;
-  left: 73px;
+  left: 634px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(8)::before {
@@ -348,9 +349,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 6px;
+  font-size: 17px;
   animation-delay: -1.6s;
-  left: 293px;
+  left: 595px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(9)::before {
@@ -358,9 +359,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 13px;
+  font-size: 20px;
   animation-delay: -1.8s;
-  left: 120px;
+  left: 673px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(10)::before {
@@ -368,9 +369,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 2px;
+  font-size: 5px;
   animation-delay: -2s;
-  left: 733px;
+  left: 992px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(11)::before {
@@ -378,9 +379,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 11px;
+  font-size: 19px;
   animation-delay: -2.2s;
-  left: 391px;
+  left: 684px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(12)::before {
@@ -388,9 +389,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 4px;
+  font-size: 5px;
   animation-delay: -2.4s;
-  left: 256px;
+  left: 178px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(13)::before {
@@ -398,9 +399,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 7px;
+  font-size: 12px;
   animation-delay: -2.6s;
-  left: 935px;
+  left: 175px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(14)::before {
@@ -408,9 +409,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 4px;
+  font-size: 10px;
   animation-delay: -2.8s;
-  left: 72px;
+  left: 1033px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(15)::before {
@@ -418,9 +419,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 2px;
+  font-size: 26px;
   animation-delay: -3s;
-  left: 462px;
+  left: 521px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(16)::before {
@@ -428,9 +429,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 14px;
   animation-delay: -3.2s;
-  left: 945px;
+  left: 425px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(17)::before {
@@ -438,9 +439,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 8px;
+  font-size: 26px;
   animation-delay: -3.4s;
-  left: 939px;
+  left: 549px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(18)::before {
@@ -448,9 +449,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 30px;
+  font-size: 27px;
   animation-delay: -3.6s;
-  left: 125px;
+  left: 477px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(19)::before {
@@ -458,9 +459,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 24px;
+  font-size: 7px;
   animation-delay: -3.8s;
-  left: 535px;
+  left: 993px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(20)::before {
@@ -468,9 +469,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 20px;
+  font-size: 21px;
   animation-delay: -4s;
-  left: 7px;
+  left: 318px;
   margin-left: 15px;
 }
 
@@ -484,6 +485,34 @@ body h2 {
 }
 .container .container__content {
   height: 100vh;
+}
+.container .container__content .title {
+  padding-left: 1.5rem;
+  padding-top: 1.5rem;
+}
+.container .container__content .title .title__under {
+  border-bottom: 2px solid #9C1915;
+  padding-top: 0.5rem;
+}
+
+.footer .up__arrow {
+  position: fixed;
+  right: 0.5rem;
+  bottom: 3.5rem;
+  z-index: 10;
+}
+.footer .up__arrow .up__arrow-drop {
+  color: #9C1915;
+  position: relative;
+  font-size: 2rem;
+  height: auto;
+}
+.footer .up__arrow .up__arrow-arrow {
+  color: #fff;
+  position: absolute;
+  right: 7px;
+  top: 8px;
+  font-size: 1.1rem;
 }
 
 @media screen and (min-width: 767px) {
