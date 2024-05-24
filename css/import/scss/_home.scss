@@ -1,0 +1,161 @@
+.container {
+    .container__content {
+        margin-bottom: 5rem;
+        .title {
+            padding-left: $space-m;
+            padding-top: $space-m;
+            margin-bottom: $space-m;
+            h1 {
+                text-transform: capitalize;
+            }
+            .title__under {
+                border-bottom: 2px solid $primaryBlood;
+                padding-top: $space-s;
+            }
+        }
+        .container__card {
+            padding: 0 $space-m;
+            .article {
+                display: flex;
+                width: 100%;
+                .card {
+                    display: flex;
+                    flex-direction: column;
+                    width: 100%;
+                    .card__film {
+                        position: relative;
+                        width: 100%;
+                        height: auto;
+                        .card__icon {
+                            position: absolute;
+                            rotate: 90deg;
+                            color: white;
+                            font-size: 3rem;
+                            left: 0;
+                            bottom: 0;
+                            padding: $space-base $space-l;
+                            opacity: 0;
+                            transition: opacity .6s;
+                            z-index: 3;
+                        }
+                        .card__overly {
+                            opacity: 0;
+                            position: absolute;
+                            background: linear-gradient(180deg, rgba(156,25,21,1) 0%, rgba(0,0,0,1) 100%);;
+                            mix-blend-mode: multiply;
+                            width: 100%;
+                            height: 100%;
+                            top: 0;
+                            bottom: 0;
+                            left: 0;
+                            right: 0;
+                            transition: opacity .6s;
+                        }
+                        &:hover .card__overly, &:hover .card__icon{
+                            opacity: 1;
+                        }
+                        .card__img {
+                            height: 100%;
+                            max-width: 100%;
+                            object-fit: cover;
+                        }
+                    }
+                    .card__info {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: flex-end;
+                        padding: 1rem 0;
+                        .card__info-content {
+                            margin-right: $space-base;
+                            .card__title {
+                                font: $jost-med-18-120;
+                                text-transform: uppercase;
+                            }
+                        }
+                    }
+                    .info__invert {
+                        flex-direction: row-reverse;
+                        .card__info-content {
+                            margin-right: 0;
+                            margin-left: $space-base;
+                            .card__title {
+                                text-align: right;
+                            }
+                            .card__desc {
+                                text-align: right;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .carousel {
+            position: relative;
+            height: 280px;
+            display: flex;
+            align-items: center;
+            .carousel__inner {
+                position: relative;
+                padding-left: $space-s;
+                display: flex;
+                gap: $space-s;
+                .carousel__card {
+                    position: relative;
+                    width: 160px;
+                    height: auto;
+                    .carousel__overly {
+                        opacity: 1;
+                        position: absolute;
+                        background: linear-gradient(180deg, rgba(156,25,21,1) 0%, rgba(0,0,0,1) 100%);
+                        mix-blend-mode: multiply;
+                        width: 160px;
+                        height: 250px;
+                        top: 0;
+                        bottom: 0;
+                        left: 0;
+                        right: 0;
+                        transition: opacity .6s;
+                    }
+                    &:hover .carousel__overly, &:hover .carousel__info {
+                        opacity: 0;
+                    }
+                    &:hover .carousel__icon {
+                        opacity: 1;
+                    }
+                    .carousel__icon {
+                        position: absolute;
+                        color: white;
+                        bottom: 0;
+                        left: 0;
+                        padding: 1rem 1rem;
+                        rotate: 90deg;
+                        font-size: 3rem;
+                        opacity: 0;
+                        transition: opacity .6s;
+                    }
+                    .carousel__img {
+                        object-fit: cover;
+                        height: 250px;
+                        width: 160px;
+                    }
+                    .carousel__info {
+                        position: absolute;
+                        bottom: 1rem;
+                        left: 1rem;
+                        width: 155px;
+                        opacity: 1;
+                        h1 {
+                            font: $jost-med-18-120;
+                            text-transform: uppercase;
+                            color: $backgroundColor;
+                        }
+                        p {
+                            font: $jost-semb-16-150;
+                            color: $secondaryBrain;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
