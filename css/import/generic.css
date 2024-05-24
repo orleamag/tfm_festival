@@ -19,11 +19,17 @@ a {
   text-decoration: none;
 }
 
+img {
+  width: 100%;
+  height: auto;
+}
+
 body {
   display: flex;
   flex-direction: column;
   height: 100vh;
   font: 400 1rem/150% "Jost", sans-serif;
+  letter-spacing: -0.0256rem;
   color: #404040;
 }
 body h1 {
@@ -180,7 +186,6 @@ body h2 {
   display: flex;
   align-items: flex-start;
   overflow: hidden;
-  margin-bottom: 1rem;
 }
 .hero .content {
   max-width: 100%;
@@ -279,9 +284,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 27px;
+  font-size: 21px;
   animation-delay: -0.2s;
-  left: 101px;
+  left: 137px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(2)::before {
@@ -289,9 +294,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 19px;
+  font-size: 2px;
   animation-delay: -0.4s;
-  left: 201px;
+  left: 609px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(3)::before {
@@ -299,9 +304,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 2px;
+  font-size: 21px;
   animation-delay: -0.6s;
-  left: 111px;
+  left: 95px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(4)::before {
@@ -309,9 +314,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 29px;
+  font-size: 13px;
   animation-delay: -0.8s;
-  left: 626px;
+  left: 963px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(5)::before {
@@ -319,9 +324,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 19px;
+  font-size: 9px;
   animation-delay: -1s;
-  left: 117px;
+  left: 1024px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(6)::before {
@@ -329,9 +334,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 10px;
+  font-size: 22px;
   animation-delay: -1.2s;
-  left: 726px;
+  left: 991px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(7)::before {
@@ -339,9 +344,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 22px;
+  font-size: 5px;
   animation-delay: -1.4s;
-  left: 634px;
+  left: 273px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(8)::before {
@@ -349,9 +354,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 17px;
+  font-size: 9px;
   animation-delay: -1.6s;
-  left: 595px;
+  left: 636px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(9)::before {
@@ -359,9 +364,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 20px;
+  font-size: 15px;
   animation-delay: -1.8s;
-  left: 673px;
+  left: 724px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(10)::before {
@@ -369,9 +374,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 5px;
+  font-size: 11px;
   animation-delay: -2s;
-  left: 992px;
+  left: 757px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(11)::before {
@@ -379,9 +384,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 19px;
+  font-size: 2px;
   animation-delay: -2.2s;
-  left: 684px;
+  left: 222px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(12)::before {
@@ -389,9 +394,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 5px;
+  font-size: 19px;
   animation-delay: -2.4s;
-  left: 178px;
+  left: 1009px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(13)::before {
@@ -399,9 +404,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 12px;
+  font-size: 24px;
   animation-delay: -2.6s;
-  left: 175px;
+  left: 61px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(14)::before {
@@ -409,9 +414,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 10px;
+  font-size: 1px;
   animation-delay: -2.8s;
-  left: 1033px;
+  left: 262px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(15)::before {
@@ -419,9 +424,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 26px;
+  font-size: 5px;
   animation-delay: -3s;
-  left: 521px;
+  left: 823px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(16)::before {
@@ -429,9 +434,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 14px;
+  font-size: 5px;
   animation-delay: -3.2s;
-  left: 425px;
+  left: 87px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(17)::before {
@@ -439,9 +444,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 26px;
+  font-size: 13px;
   animation-delay: -3.4s;
-  left: 549px;
+  left: 252px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(18)::before {
@@ -451,7 +456,7 @@ body h2 {
   box-sizing: border-box;
   font-size: 27px;
   animation-delay: -3.6s;
-  left: 477px;
+  left: 729px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(19)::before {
@@ -459,9 +464,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 7px;
+  font-size: 8px;
   animation-delay: -3.8s;
-  left: 993px;
+  left: 795px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(20)::before {
@@ -469,9 +474,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 21px;
+  font-size: 12px;
   animation-delay: -4s;
-  left: 318px;
+  left: 952px;
   margin-left: 15px;
 }
 
@@ -484,22 +489,238 @@ body h2 {
   }
 }
 .container .container__content {
-  height: 100vh;
+  margin-bottom: 5rem;
 }
 .container .container__content .title {
   padding-left: 1.5rem;
   padding-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.container .container__content .title h1 {
+  text-transform: capitalize;
 }
 .container .container__content .title .title__under {
   border-bottom: 2px solid #9C1915;
   padding-top: 0.5rem;
 }
+.container .container__content .container__card {
+  padding: 0 1.5rem;
+}
+.container .container__content .container__card .article {
+  display: flex;
+  width: 100%;
+}
+.container .container__content .container__card .article .card {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.container .container__content .container__card .article .card .card__film {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+.container .container__content .container__card .article .card .card__film .card__icon {
+  position: absolute;
+  rotate: 90deg;
+  color: white;
+  font-size: 3rem;
+  left: 0;
+  bottom: 0;
+  padding: 1rem 2rem;
+  opacity: 0;
+  transition: opacity 0.6s;
+  z-index: 3;
+}
+.container .container__content .container__card .article .card .card__film .card__overly {
+  opacity: 0;
+  position: absolute;
+  background: linear-gradient(180deg, rgb(156, 25, 21) 0%, rgb(0, 0, 0) 100%);
+  mix-blend-mode: multiply;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: opacity 0.6s;
+}
+.container .container__content .container__card .article .card .card__film:hover .card__overly, .container .container__content .container__card .article .card .card__film:hover .card__icon {
+  opacity: 1;
+}
+.container .container__content .container__card .article .card .card__film .card__img {
+  height: 100%;
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container .container__content .container__card .article .card .card__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 1rem 0;
+}
+.container .container__content .container__card .article .card .card__info .card__info-content {
+  margin-right: 1rem;
+}
+.container .container__content .container__card .article .card .card__info .card__info-content .card__title {
+  font: 500 1.125rem/120% "Jost", sans-serif;
+  text-transform: uppercase;
+}
+.container .container__content .container__card .article .card .info__invert {
+  flex-direction: row-reverse;
+}
+.container .container__content .container__card .article .card .info__invert .card__info-content {
+  margin-right: 0;
+  margin-left: 1rem;
+}
+.container .container__content .container__card .article .card .info__invert .card__info-content .card__title {
+  text-align: right;
+}
+.container .container__content .container__card .article .card .info__invert .card__info-content .card__desc {
+  text-align: right;
+}
+.container .container__content .carousel {
+  position: relative;
+  height: 280px;
+  display: flex;
+  align-items: center;
+}
+.container .container__content .carousel .carousel__inner {
+  position: relative;
+  padding-left: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
+}
+.container .container__content .carousel .carousel__inner .carousel__card {
+  position: relative;
+  width: 160px;
+  height: auto;
+}
+.container .container__content .carousel .carousel__inner .carousel__card .carousel__overly {
+  opacity: 1;
+  position: absolute;
+  background: linear-gradient(180deg, rgb(156, 25, 21) 0%, rgb(0, 0, 0) 100%);
+  mix-blend-mode: multiply;
+  width: 160px;
+  height: 250px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: opacity 0.6s;
+}
+.container .container__content .carousel .carousel__inner .carousel__card:hover .carousel__overly, .container .container__content .carousel .carousel__inner .carousel__card:hover .carousel__info {
+  opacity: 0;
+}
+.container .container__content .carousel .carousel__inner .carousel__card:hover .carousel__icon {
+  opacity: 1;
+}
+.container .container__content .carousel .carousel__inner .carousel__card .carousel__icon {
+  position: absolute;
+  color: white;
+  bottom: 0;
+  left: 0;
+  padding: 1rem 1rem;
+  rotate: 90deg;
+  font-size: 3rem;
+  opacity: 0;
+  transition: opacity 0.6s;
+}
+.container .container__content .carousel .carousel__inner .carousel__card .carousel__img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 250px;
+  width: 160px;
+}
+.container .container__content .carousel .carousel__inner .carousel__card .carousel__info {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  width: 155px;
+  opacity: 1;
+}
+.container .container__content .carousel .carousel__inner .carousel__card .carousel__info h1 {
+  font: 500 1.125rem/120% "Jost", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+}
+.container .container__content .carousel .carousel__inner .carousel__card .carousel__info p {
+  font: 600 1rem/150% "Jost", sans-serif;
+  color: #D97292;
+}
 
+/************************************ BUTTONS ******************************************/
+.btn__liquid {
+  position: relative;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  min-width: 6rem;
+  height: -moz-fit-content;
+  height: fit-content;
+  overflow: hidden;
+  border-radius: 0.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #9C1915;
+}
+.btn__liquid span {
+  position: relative;
+  color: #404040;
+  font-size: 20px;
+  font-weight: 400;
+  z-index: 1;
+}
+.btn__liquid .liquid {
+  position: absolute;
+  top: -80px;
+  left: 0;
+  width: 270px;
+  height: 270px;
+  background: #9C1915;
+  transition: 0.7s;
+}
+.btn__liquid .liquid::after, .btn__liquid .liquid::before {
+  content: "";
+  width: 180%;
+  height: 180%;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-40%, -65%);
+}
+.btn__liquid .liquid::before {
+  border-radius: 45%;
+  background: rgb(255, 255, 255);
+  animation: animate 5s linear infinite;
+}
+.btn__liquid .liquid::after {
+  border-radius: 40%;
+  background: rgba(255, 255, 255, 0.5);
+  animation: animate 10s linear infinite;
+}
+.btn__liquid:hover .liquid {
+  top: -180px;
+}
+.btn__liquid:hover span {
+  color: #fff;
+}
+
+/************************************ ANIMATION ******************************************/
+@keyframes animate {
+  0% {
+    transform: translate(-40%, -65%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-40%, -65%) rotate(360deg);
+  }
+}
 .footer .up__arrow {
   position: fixed;
   right: 0.5rem;
   bottom: 3.5rem;
-  z-index: 10;
+  z-index: 3;
 }
 .footer .up__arrow .up__arrow-drop {
   color: #9C1915;
