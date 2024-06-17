@@ -91,17 +91,19 @@
         }
         .carousel {
             position: relative;
-            height: 280px;
-            display: flex;
-            align-items: center;
+            overflow: hidden;
             .carousel__inner {
-                position: relative;
-                padding-left: $space-s;
-                display: flex;
-                gap: $space-s;
+                .slick-track{
+                    display: flex;
+                    width: 100% !important;
+                    .slick-slide {
+                        width: auto !important;
+                    }
+                }
                 .carousel__card {
                     position: relative;
-                    width: 160px;
+                    width: 160px !important;
+                    margin-right: $space-base;
                     height: auto;
                     .carousel__overly {
                         opacity: 1;

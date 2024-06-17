@@ -284,9 +284,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 21px;
+  font-size: 19px;
   animation-delay: -0.2s;
-  left: 137px;
+  left: 108px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(2)::before {
@@ -294,9 +294,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 2px;
+  font-size: 29px;
   animation-delay: -0.4s;
-  left: 609px;
+  left: 964px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(3)::before {
@@ -304,9 +304,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 21px;
+  font-size: 24px;
   animation-delay: -0.6s;
-  left: 95px;
+  left: 402px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(4)::before {
@@ -314,9 +314,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 13px;
+  font-size: 17px;
   animation-delay: -0.8s;
-  left: 963px;
+  left: 316px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(5)::before {
@@ -324,9 +324,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 9px;
+  font-size: 11px;
   animation-delay: -1s;
-  left: 1024px;
+  left: 812px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(6)::before {
@@ -334,9 +334,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 22px;
+  font-size: 20px;
   animation-delay: -1.2s;
-  left: 991px;
+  left: 10px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(7)::before {
@@ -344,9 +344,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 5px;
+  font-size: 20px;
   animation-delay: -1.4s;
-  left: 273px;
+  left: 65px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(8)::before {
@@ -354,9 +354,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 9px;
+  font-size: 2px;
   animation-delay: -1.6s;
-  left: 636px;
+  left: 325px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(9)::before {
@@ -364,9 +364,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 15px;
+  font-size: 9px;
   animation-delay: -1.8s;
-  left: 724px;
+  left: 22px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(10)::before {
@@ -374,9 +374,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 11px;
+  font-size: 24px;
   animation-delay: -2s;
-  left: 757px;
+  left: 380px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(11)::before {
@@ -384,9 +384,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 2px;
+  font-size: 21px;
   animation-delay: -2.2s;
-  left: 222px;
+  left: 178px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(12)::before {
@@ -394,9 +394,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 19px;
+  font-size: 1px;
   animation-delay: -2.4s;
-  left: 1009px;
+  left: 632px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(13)::before {
@@ -404,9 +404,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 24px;
+  font-size: 26px;
   animation-delay: -2.6s;
-  left: 61px;
+  left: 474px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(14)::before {
@@ -414,9 +414,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 1px;
+  font-size: 20px;
   animation-delay: -2.8s;
-  left: 262px;
+  left: 672px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(15)::before {
@@ -424,9 +424,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 5px;
+  font-size: 25px;
   animation-delay: -3s;
-  left: 823px;
+  left: 239px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(16)::before {
@@ -434,9 +434,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 5px;
+  font-size: 3px;
   animation-delay: -3.2s;
-  left: 87px;
+  left: 877px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(17)::before {
@@ -444,9 +444,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 13px;
+  font-size: 5px;
   animation-delay: -3.4s;
-  left: 252px;
+  left: 1051px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(18)::before {
@@ -454,9 +454,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 27px;
+  font-size: 13px;
   animation-delay: -3.6s;
-  left: 729px;
+  left: 1052px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(19)::before {
@@ -464,9 +464,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 8px;
+  font-size: 4px;
   animation-delay: -3.8s;
-  left: 795px;
+  left: 203px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(20)::before {
@@ -474,9 +474,9 @@ body h2 {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 12px;
+  font-size: 24px;
   animation-delay: -4s;
-  left: 952px;
+  left: 980px;
   margin-left: 15px;
 }
 
@@ -582,19 +582,19 @@ body h2 {
 }
 .container .container__content .carousel {
   position: relative;
-  height: 280px;
-  display: flex;
-  align-items: center;
+  overflow: hidden;
 }
-.container .container__content .carousel .carousel__inner {
-  position: relative;
-  padding-left: 0.5rem;
+.container .container__content .carousel .carousel__inner .slick-track {
   display: flex;
-  gap: 0.5rem;
+  width: 100% !important;
+}
+.container .container__content .carousel .carousel__inner .slick-track .slick-slide {
+  width: auto !important;
 }
 .container .container__content .carousel .carousel__inner .carousel__card {
   position: relative;
-  width: 160px;
+  width: 160px !important;
+  margin-right: 1rem;
   height: auto;
 }
 .container .container__content .carousel .carousel__inner .carousel__card .carousel__overly {
