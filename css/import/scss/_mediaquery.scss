@@ -1,4 +1,4 @@
-@media screen and (min-width: 767px) {
+@media (min-width: 767px) {
 
     .header {
         justify-content: inherit;
@@ -58,7 +58,7 @@
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media (min-width: 1200px) {
     .header {
         justify-content: inherit;
         .header__logo {
@@ -116,6 +116,48 @@
         }
         .drops {
             display: block;
+        }
+    }
+    .container {
+        .container__content {
+            .carousel {
+                .carousel__inner {
+                    .carousel__card {
+                        width: 290px;
+                        .carousel__overly {
+                            width: 290px;
+                            height: 440px;
+                        }
+                        .carousel__img {
+                            width: 290px;
+                            height: 440px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* XXL - only carrousel */
+@media (min-width: 1500px) {
+        .container {
+        .container__content {
+            .carousel {
+                .carousel__inner {
+                    .carousel__card {
+                        width: 340px;
+                        .carousel__overly {
+                            width: 340px;
+                            height: 530px;
+                        }
+                        .carousel__img {
+                            width: 340px;
+                            height: 530px;
+                        }
+                    }
+                }
+            }
         }
     }
 }
