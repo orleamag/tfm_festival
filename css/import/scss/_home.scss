@@ -95,14 +95,14 @@
             .carousel__inner {
                 .slick-track{
                     display: flex;
-                    width: 100% !important;
+                    width: 100%;
                     .slick-slide {
                         width: auto !important;
                     }
                 }
                 .carousel__card {
                     position: relative;
-                    width: 160px !important;
+                    width: 160px;
                     margin-right: $space-base;
                     height: auto;
                     .carousel__overly {
