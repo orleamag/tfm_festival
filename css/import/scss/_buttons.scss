@@ -54,6 +54,20 @@
         color: $backgroundColor;
     }
 }
+.btnSecondary {
+    position: relative;
+    background-color: $backgroundColor;
+    border: 2px solid $secondaryBrain;
+    color: $genericText;
+    border-radius: 0.5rem;
+    padding: .5rem 1rem;
+    z-index: 3;
+    margin: 0 auto;
+    &:hover {
+        background-color: $secondaryBrain;
+        color: $backgroundColor;
+    }
+}
 
 /************************************ ANIMATION ******************************************/
 @keyframes animate {
