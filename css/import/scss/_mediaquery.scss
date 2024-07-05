@@ -47,7 +47,7 @@
         }
     }
     .hero {
-        height: 70vh;
+        height: 90vh;
         .waves {
             height: 250px;
         }
@@ -120,10 +120,44 @@
     }
     .container {
         .container__content {
+            .container__card {
+                padding: 0 $space-m;
+                display: flex;
+                gap: 1.5rem;
+                .article {
+                    display: flex;
+                    width: 100%;
+                    .card {
+                        display: flex;
+                        flex-direction: column;
+                        width: 100%;
+                        .info__invert {
+                            flex-direction: row;
+                            .card__info-content {
+                                .card__title {
+                                    text-align: left;
+                                }
+                                .card__desc {
+                                    text-align: left;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
             .carousel {
                 .carousel__inner {
                     .carousel__card {
                         width: 290px;
+                        display: flex;
+                        gap: 1.5rem;
+                        article {
+                            .card {
+                                .info__invert {
+                                    flex-direction: row;
+                                }
+                            }
+                        }
                         .carousel__overly {
                             width: 290px;
                             height: 440px;
