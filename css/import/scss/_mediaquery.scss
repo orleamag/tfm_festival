@@ -1,5 +1,4 @@
-@media (min-width: 767px) {
-
+@media (min-width: 740px) {
     .header {
         justify-content: inherit;
         .header__logo {
@@ -54,6 +53,39 @@
         .drops {
             display: block;
             margin-top: 3.5rem;
+        }
+    }
+    .container {
+        .container__content {
+            .container__card {
+                .article {
+                    .card {
+                        .info__invert {
+                            flex-direction: row;
+                            .card__info-content {
+                                .card__title {
+                                    text-align: left;
+                                }
+                                .card__desc {
+                                    text-align: left;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .schedule {
+            padding: 0 $space-m;
+            .schedule__content {
+                .tabbar {
+                    ul {
+                        li {
+                            padding: 0 $space-m;
+                        }
+                    }
+                }
+            }
         }
     }
 }
@@ -122,8 +154,6 @@
         .container__content {
             .container__card {
                 padding: 0 $space-m;
-                display: flex;
-                gap: 1.5rem;
                 .article {
                     display: flex;
                     width: 100%;
@@ -170,12 +200,24 @@
                 }
             }
         }
+        .schedule {
+            padding: 0 $space-xl;
+            .schedule__content {
+                .tabbar {
+                    ul {
+                        li {
+                            padding: 0 $space-xl;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
 /* XXL - only carrousel */
 @media (min-width: 1500px) {
-        .container {
+    .container {
         .container__content {
             .carousel {
                 .carousel__inner {
@@ -188,6 +230,18 @@
                         .carousel__img {
                             width: 340px;
                             height: 530px;
+                        }
+                    }
+                }
+            }
+        }
+        .schedule {
+            padding: 0 $space-xxl;
+            .schedule__content {
+                .tabbar {
+                    ul {
+                        li {
+                            padding: 0 $space-xxl;
                         }
                     }
                 }
