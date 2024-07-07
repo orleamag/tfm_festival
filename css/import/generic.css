@@ -45,6 +45,9 @@ body h1 {
 body h2 {
   font: 500 1.25rem/120% "Jost", sans-serif;
 }
+body h3 {
+  font: 500 1.125rem/120% "Jost", sans-serif;
+}
 
 /******************************* COMPONENTS **************************/
 hr {
@@ -288,9 +291,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 26px;
+  font-size: 25px;
   animation-delay: -0.2s;
-  left: 636px;
+  left: 494px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(2)::before {
@@ -298,9 +301,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 25px;
+  font-size: 23px;
   animation-delay: -0.4s;
-  left: 19px;
+  left: 761px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(3)::before {
@@ -308,9 +311,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 13px;
+  font-size: 24px;
   animation-delay: -0.6s;
-  left: 512px;
+  left: 967px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(4)::before {
@@ -318,9 +321,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 18px;
+  font-size: 13px;
   animation-delay: -0.8s;
-  left: 715px;
+  left: 945px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(5)::before {
@@ -328,9 +331,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 12px;
+  font-size: 29px;
   animation-delay: -1s;
-  left: 1048px;
+  left: 809px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(6)::before {
@@ -338,9 +341,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 19px;
+  font-size: 3px;
   animation-delay: -1.2s;
-  left: 575px;
+  left: 419px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(7)::before {
@@ -348,9 +351,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 19px;
+  font-size: 15px;
   animation-delay: -1.4s;
-  left: 593px;
+  left: 960px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(8)::before {
@@ -358,9 +361,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 17px;
+  font-size: 18px;
   animation-delay: -1.6s;
-  left: 906px;
+  left: 847px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(9)::before {
@@ -368,9 +371,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 6px;
+  font-size: 14px;
   animation-delay: -1.8s;
-  left: 287px;
+  left: 947px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(10)::before {
@@ -378,9 +381,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 24px;
+  font-size: 14px;
   animation-delay: -2s;
-  left: 821px;
+  left: 797px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(11)::before {
@@ -388,9 +391,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 11px;
+  font-size: 30px;
   animation-delay: -2.2s;
-  left: 290px;
+  left: 688px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(12)::before {
@@ -398,9 +401,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 22px;
+  font-size: 3px;
   animation-delay: -2.4s;
-  left: 224px;
+  left: 776px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(13)::before {
@@ -408,9 +411,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 9px;
+  font-size: 1px;
   animation-delay: -2.6s;
-  left: 124px;
+  left: 889px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(14)::before {
@@ -418,9 +421,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 25px;
+  font-size: 1px;
   animation-delay: -2.8s;
-  left: 189px;
+  left: 1063px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(15)::before {
@@ -428,9 +431,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 15px;
+  font-size: 24px;
   animation-delay: -3s;
-  left: 601px;
+  left: 915px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(16)::before {
@@ -438,9 +441,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 26px;
+  font-size: 6px;
   animation-delay: -3.2s;
-  left: 891px;
+  left: 1029px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(17)::before {
@@ -448,9 +451,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 23px;
+  font-size: 17px;
   animation-delay: -3.4s;
-  left: 181px;
+  left: 1097px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(18)::before {
@@ -458,9 +461,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 13px;
+  font-size: 16px;
   animation-delay: -3.6s;
-  left: 956px;
+  left: 177px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(19)::before {
@@ -468,9 +471,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 8px;
+  font-size: 5px;
   animation-delay: -3.8s;
-  left: 530px;
+  left: 508px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(20)::before {
@@ -478,9 +481,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 7px;
+  font-size: 26px;
   animation-delay: -4s;
-  left: 291px;
+  left: 216px;
   margin-left: 15px;
 }
 
@@ -690,6 +693,17 @@ hr {
   padding: 1rem 0.25rem;
   text-align: center;
 }
+.container .schedule .schedule__content .schedule__list li h3 {
+  margin-top: 1rem;
+  text-transform: uppercase;
+}
+.container .schedule .schedule__content .schedule__list li .schedule__desc {
+  display: flex;
+  justify-content: space-between;
+}
+.container .schedule .schedule__content .schedule__list li p, .container .schedule .schedule__content .schedule__list li a, .container .schedule .schedule__content .schedule__list li h3, .container .schedule .schedule__content .schedule__list li .schedule__desc {
+  margin-bottom: 0.5rem;
+}
 
 /************************************ BUTTONS ******************************************/
 .btn__liquid {
@@ -745,6 +759,62 @@ hr {
   top: -180px;
 }
 .btn__liquid:hover span {
+  color: #fff;
+}
+
+.btn__liquid-schedule {
+  position: relative;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  min-width: 6rem;
+  height: -moz-fit-content;
+  height: fit-content;
+  overflow: hidden;
+  border-radius: 0.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #9C1915;
+}
+.btn__liquid-schedule span {
+  position: relative;
+  color: #404040;
+  font-size: 20px;
+  font-weight: 400;
+  z-index: 1;
+}
+.btn__liquid-schedule .liquid {
+  position: absolute;
+  top: -115px;
+  left: 0;
+  width: 380px;
+  height: 470px;
+  background: #9C1915;
+  transition: 0.7s;
+}
+.btn__liquid-schedule .liquid::after, .btn__liquid-schedule .liquid::before {
+  content: "";
+  width: 180%;
+  height: 180%;
+  position: absolute;
+  top: 0;
+  left: 70%;
+  transform: translate(-40%, -65%);
+}
+.btn__liquid-schedule .liquid::before {
+  border-radius: 45%;
+  background: rgb(255, 255, 255);
+  animation: animate 5s linear infinite;
+}
+.btn__liquid-schedule .liquid::after {
+  border-radius: 40%;
+  background: rgba(255, 255, 255, 0.5);
+  animation: animate 10s linear infinite;
+}
+.btn__liquid-schedule:hover .liquid {
+  top: -310px;
+}
+.btn__liquid-schedule:hover span {
   color: #fff;
 }
 
