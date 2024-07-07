@@ -4,11 +4,13 @@
     --inactive: #99A3BA;
     --shadow: rgba(18, 22, 33, .24);
     --line: #CDD9ED;
-    max-width: 370px;
+    min-width: 100%;
     -webkit-tap-highlight-color: transparent;
     overflow: hidden;
     border-top: 2px solid var(--primary);
     border-bottom: 1px solid var(--primary);
+    display: flex;
+    justify-content: center;
     ul {
         --x: 54px;
         margin: 0;
@@ -133,38 +135,6 @@
                     }
                 }
             }
-            // &.calendar {
-            //     a {
-            //         div {
-            //             -webkit-mask-box-image: url('https://aaroniker.me/feather-icons/calendar.svg');
-            //             mask: url('https://aaroniker.me/feather-icons/calendar.svg');
-            //         }
-            //     }
-            // }
-            // &.files {
-            //     a {
-            //         div {
-            //             -webkit-mask-box-image: url('https://aaroniker.me/feather-icons/file.svg');
-            //             mask: url('https://aaroniker.me/feather-icons/file.svg');
-            //         }
-            //     }
-            // }
-            // &.notification {
-            //     a {
-            //         div {
-            //             -webkit-mask-box-image: url('https://aaroniker.me/feather-icons/bell.svg');
-            //             mask: url('https://aaroniker.me/feather-icons/bell.svg');
-            //         }
-            //     }
-            // }
-            // &.settings {
-            //     a {
-            //         div {
-            //             -webkit-mask-box-image: url('https://aaroniker.me/feather-icons/settings.svg');
-            //             mask: url('https://aaroniker.me/feather-icons/settings.svg');
-            //         }
-            //     }
-            // }
         }
     }
 }
@@ -203,36 +173,3 @@
         transform: translateX(41px);
     }
 }
-
-html {
-    box-sizing: border-box;
-    -webkit-font-smoothing: antialiased;
-}
-
-* {
-    box-sizing: inherit;
-    &:before,
-    &:after {
-        box-sizing: inherit;
-    }
-}
-
-// // Center & dribbble
-// body {
-//     font-family: 'Roboto', Arial;
-//     min-height: 100vh;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     background: #EEF4FF;
-//     .dribbble {
-//         position: fixed;
-//         display: block;
-//         right: 20px;
-//         bottom: 20px;
-//         img {
-//             display: block;
-//             height: 28px;
-//         }
-//     }
-// }

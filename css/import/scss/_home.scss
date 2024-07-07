@@ -16,6 +16,9 @@
         }
         .container__card {
             padding: 0 $space-m;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: $space-m;
             .article {
                 display: flex;
                 width: 100%;
@@ -56,7 +59,7 @@
                             opacity: 1;
                         }
                         .card__img {
-                            height: 100%;
+                            height: 190px;
                             max-width: 100%;
                             object-fit: cover;
                         }
@@ -181,9 +184,11 @@
         }
     }
     .schedule {
+        padding: 0 $space-base;
         display: flex;
         justify-content: center;
         .schedule__content {
+            width: 100%;
             >h1 {
                 padding: $space-base $space-xs;
                 text-align: center;
