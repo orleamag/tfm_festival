@@ -54,6 +54,60 @@
         color: $backgroundColor;
     }
 }
+.btn__liquid-schedule {
+    position: relative;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    min-width: 6rem;
+    height: fit-content;
+    overflow: hidden;
+    border-radius: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid $primaryBlood;
+    span {
+        position: relative;
+        color: $genericText;
+        font-size: 20px;
+        font-weight: 400;
+        z-index: 1;
+    }
+    .liquid {
+        position: absolute;
+        top: -115px;
+        left: 0;
+        width: 380px;
+        height: 470px;
+        background: $primaryBlood;
+        transition: .7s;
+        &::after, &::before {
+            content: "";
+            width: 180%;
+            height: 180%;
+            position: absolute;
+            top: 0;
+            left: 70%;
+            transform: translate(-40%, -65%);
+        }
+        &::before {
+            border-radius: 45%;
+            background: rgb(255, 255, 255);
+            animation: animate 5s linear infinite;
+        }
+        &::after {
+            border-radius: 40%;
+            background: rgba(255, 255, 255, 0.5);
+            animation: animate 10s linear infinite;
+        }
+    }
+    &:hover .liquid {
+        top: -310px;
+    }
+    &:hover span {
+        color: $backgroundColor;
+    }
+}
 .btnSecondary {
     position: relative;
     background-color: $backgroundColor;

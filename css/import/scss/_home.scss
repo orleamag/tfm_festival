@@ -193,6 +193,21 @@
                 padding: $space-base $space-xs;
                 text-align: center;
             }
+            .schedule__list {
+                li {
+                    h3 {
+                        margin-top: $space-base;
+                        text-transform: uppercase;
+                    }
+                    .schedule__desc {
+                        display: flex;
+                        justify-content: space-between;
+                    }
+                    p, a, h3, .schedule__desc {
+                        margin-bottom: $space-s;
+                    }
+                }
+            }
         }
     }
 }
