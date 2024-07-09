@@ -78,6 +78,13 @@
                                 font: $jost-med-18-120;
                                 text-transform: uppercase;
                             }
+                            .card__desc {
+                                display: -webkit-box;
+                                -webkit-box-orient: vertical;
+                                -webkit-line-clamp: 2;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                            }
                         }
                     }
                     .info__invert {
@@ -90,6 +97,11 @@
                             }
                             .card__desc {
                                 text-align: right;
+                                display: -webkit-box;
+                                -webkit-box-orient: vertical;
+                                -webkit-line-clamp: 2;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
                             }
                         }
                     }
