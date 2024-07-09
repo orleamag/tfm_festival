@@ -1,5 +1,5 @@
 .container {
-    padding-bottom: 5rem;
+    padding-bottom: $space-l;
     .container__content {
         margin-bottom: 2rem;
         .title {
@@ -19,6 +19,9 @@
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: $space-m;
+            .desktop {
+                display: none;
+            }
             .article {
                 display: flex;
                 width: 100%;
@@ -59,7 +62,7 @@
                             opacity: 1;
                         }
                         .card__img {
-                            height: 190px;
+                            max-height: 215px;
                             max-width: 100%;
                             object-fit: cover;
                         }
@@ -194,9 +197,9 @@
                 text-align: center;
             }
             .schedule__list {
-                li {
+                .schedule__item {
+                    padding: $space-base 0;
                     h3 {
-                        margin-top: $space-base;
                         text-transform: uppercase;
                     }
                     .schedule__desc {
@@ -206,6 +209,41 @@
                     p, a, h3, .schedule__desc {
                         margin-bottom: $space-s;
                     }
+                }
+            }
+            .show {
+                display: block;
+            }
+            .hide {
+                display: none;
+            }
+        }
+    }
+}
+.footer {
+    .footer__content {
+        padding-bottom: 4rem;
+        background-color: $secondaryBrain;
+        padding-top: $space-base;
+        padding-right: $space-base;
+        padding-left: $space-base;
+        .footer__desc {
+            h1 {
+                margin-bottom: $space-m;
+            }
+        }
+        .footer__metadata {
+
+            .footer__rrss {
+                display: flex;
+                padding: $space-base 0;
+                gap: $space-xxl;
+                li a{
+                    color: $genericText;
+                    font: $jost-semb-16-150;
+                }
+                a:hover {
+                    color: $backgroundColor;
                 }
             }
         }

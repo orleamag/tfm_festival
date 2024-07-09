@@ -58,8 +58,16 @@
     .container {
         .container__content {
             .container__card {
+                grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
                 .article {
                     .card {
+                        .card__film {
+                            .card__img {
+                                max-height: 215px;
+                                max-width: 100%;
+                                object-fit: cover;
+                            }
+                        }
                         .info__invert {
                             flex-direction: row;
                             .card__info-content {
@@ -84,6 +92,65 @@
                             padding: 0 $space-m;
                         }
                     }
+                }
+                .schedule__list {
+                    .schedule__item {
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding: $space-base $space-base;
+                        border-bottom: 1px solid $secondaryBrain;
+                        .schedule__desc {
+                            width: 100%;
+                            justify-content: center;
+                            .schedule__forward {
+                                display: none;
+                            }
+                        }
+                        .btnSecondary__schedule {
+                            margin: 0;
+                            width: fit-content;
+                            text-wrap: nowrap;
+                        }
+                        h3, p {
+                            width: 100%;
+                        }
+                        .schedule__hour  {
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .footer {
+        .footer__content {
+            padding-bottom: $space-base;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            .footer__desc {
+                width: 50%;
+                h1 {
+                    margin-bottom: $space-m;
+                }
+            }
+            .footer__metadata {
+                width: 50%;
+                .footer__rrss {
+                    padding: $space-none 0;
+                    gap: $space-l;
+                    justify-content: flex-end;
+                    li a{
+                        color: $genericText;
+                        font: $jost-semb-16-150;
+                    }
+                    a:hover {
+                        color: $backgroundColor;
+                    }
+                }
+                p {
+                    text-align: right;
                 }
             }
         }
@@ -153,6 +220,7 @@
     .container {
         .container__content {
             .container__card {
+                grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
                 padding: 0 $space-m;
                 .article {
                     display: flex;
@@ -161,6 +229,13 @@
                         display: flex;
                         flex-direction: column;
                         width: 100%;
+                        .card__film {
+                            .card__img {
+                                max-height: 315px;
+                                max-width: 100%;
+                                object-fit: cover;
+                            }
+                        }
                         .info__invert {
                             flex-direction: row;
                             .card__info-content {
@@ -203,6 +278,7 @@
         .schedule {
             padding: 0 $space-xl;
             .schedule__content {
+                max-width: 980px;
                 .tabbar {
                     ul {
                         li {
@@ -219,6 +295,9 @@
 @media (min-width: 1500px) {
     .container {
         .container__content {
+            .container__card {
+                grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+            }
             .carousel {
                 .carousel__inner {
                     .carousel__card {
@@ -238,6 +317,7 @@
         .schedule {
             padding: 0 $space-xxl;
             .schedule__content {
+                max-width: 980px;
                 .tabbar {
                     ul {
                         li {

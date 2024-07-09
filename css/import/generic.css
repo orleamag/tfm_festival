@@ -291,9 +291,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 25px;
+  font-size: 14px;
   animation-delay: -0.2s;
-  left: 494px;
+  left: 1040px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(2)::before {
@@ -303,7 +303,7 @@ hr {
   box-sizing: border-box;
   font-size: 23px;
   animation-delay: -0.4s;
-  left: 761px;
+  left: 852px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(3)::before {
@@ -311,9 +311,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 24px;
+  font-size: 9px;
   animation-delay: -0.6s;
-  left: 967px;
+  left: 867px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(4)::before {
@@ -321,9 +321,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 13px;
+  font-size: 29px;
   animation-delay: -0.8s;
-  left: 945px;
+  left: 841px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(5)::before {
@@ -331,9 +331,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 29px;
+  font-size: 28px;
   animation-delay: -1s;
-  left: 809px;
+  left: 678px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(6)::before {
@@ -341,9 +341,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 3px;
+  font-size: 24px;
   animation-delay: -1.2s;
-  left: 419px;
+  left: 656px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(7)::before {
@@ -351,9 +351,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 15px;
+  font-size: 11px;
   animation-delay: -1.4s;
-  left: 960px;
+  left: 860px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(8)::before {
@@ -361,9 +361,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 18px;
+  font-size: 16px;
   animation-delay: -1.6s;
-  left: 847px;
+  left: 417px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(9)::before {
@@ -371,9 +371,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 14px;
+  font-size: 5px;
   animation-delay: -1.8s;
-  left: 947px;
+  left: 183px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(10)::before {
@@ -381,9 +381,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 14px;
+  font-size: 18px;
   animation-delay: -2s;
-  left: 797px;
+  left: 55px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(11)::before {
@@ -393,7 +393,7 @@ hr {
   box-sizing: border-box;
   font-size: 30px;
   animation-delay: -2.2s;
-  left: 688px;
+  left: 1081px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(12)::before {
@@ -401,9 +401,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 3px;
+  font-size: 27px;
   animation-delay: -2.4s;
-  left: 776px;
+  left: 1078px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(13)::before {
@@ -411,9 +411,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 1px;
+  font-size: 6px;
   animation-delay: -2.6s;
-  left: 889px;
+  left: 58px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(14)::before {
@@ -421,9 +421,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 1px;
+  font-size: 9px;
   animation-delay: -2.8s;
-  left: 1063px;
+  left: 632px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(15)::before {
@@ -431,9 +431,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 24px;
+  font-size: 27px;
   animation-delay: -3s;
-  left: 915px;
+  left: 825px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(16)::before {
@@ -441,9 +441,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 6px;
+  font-size: 24px;
   animation-delay: -3.2s;
-  left: 1029px;
+  left: 782px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(17)::before {
@@ -451,9 +451,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 17px;
+  font-size: 8px;
   animation-delay: -3.4s;
-  left: 1097px;
+  left: 549px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(18)::before {
@@ -461,9 +461,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 21px;
   animation-delay: -3.6s;
-  left: 177px;
+  left: 383px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(19)::before {
@@ -471,9 +471,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 5px;
+  font-size: 14px;
   animation-delay: -3.8s;
-  left: 508px;
+  left: 236px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(20)::before {
@@ -481,9 +481,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 26px;
+  font-size: 6px;
   animation-delay: -4s;
-  left: 216px;
+  left: 89px;
   margin-left: 15px;
 }
 
@@ -496,7 +496,7 @@ hr {
   }
 }
 .container {
-  padding-bottom: 5rem;
+  padding-bottom: 2rem;
 }
 .container .container__content {
   margin-bottom: 2rem;
@@ -518,6 +518,9 @@ hr {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1.5rem;
+}
+.container .container__content .container__card .desktop {
+  display: none;
 }
 .container .container__content .container__card .article {
   display: flex;
@@ -562,7 +565,7 @@ hr {
   opacity: 1;
 }
 .container .container__content .container__card .article .card .card__film .card__img {
-  height: 190px;
+  max-height: 215px;
   max-width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -693,16 +696,47 @@ hr {
   padding: 1rem 0.25rem;
   text-align: center;
 }
-.container .schedule .schedule__content .schedule__list li h3 {
-  margin-top: 1rem;
+.container .schedule .schedule__content .schedule__list .schedule__item {
+  padding: 1rem 0;
+}
+.container .schedule .schedule__content .schedule__list .schedule__item h3 {
   text-transform: uppercase;
 }
-.container .schedule .schedule__content .schedule__list li .schedule__desc {
+.container .schedule .schedule__content .schedule__list .schedule__item .schedule__desc {
   display: flex;
   justify-content: space-between;
 }
-.container .schedule .schedule__content .schedule__list li p, .container .schedule .schedule__content .schedule__list li a, .container .schedule .schedule__content .schedule__list li h3, .container .schedule .schedule__content .schedule__list li .schedule__desc {
+.container .schedule .schedule__content .schedule__list .schedule__item p, .container .schedule .schedule__content .schedule__list .schedule__item a, .container .schedule .schedule__content .schedule__list .schedule__item h3, .container .schedule .schedule__content .schedule__list .schedule__item .schedule__desc {
   margin-bottom: 0.5rem;
+}
+.container .schedule .schedule__content .show {
+  display: block;
+}
+.container .schedule .schedule__content .hide {
+  display: none;
+}
+
+.footer .footer__content {
+  padding-bottom: 4rem;
+  background-color: #D97292;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+.footer .footer__content .footer__desc h1 {
+  margin-bottom: 1.5rem;
+}
+.footer .footer__content .footer__metadata .footer__rrss {
+  display: flex;
+  padding: 1rem 0;
+  gap: 3rem;
+}
+.footer .footer__content .footer__metadata .footer__rrss li a {
+  color: #404040;
+  font: 600 1rem/150% "Jost", sans-serif;
+}
+.footer .footer__content .footer__metadata .footer__rrss a:hover {
+  color: #fff;
 }
 
 /************************************ BUTTONS ******************************************/
@@ -833,6 +867,23 @@ hr {
   color: #fff;
 }
 
+.btnSecondary__schedule {
+  position: relative;
+  background-color: #fff;
+  border: 2px solid #D97292;
+  color: #404040;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  z-index: 3;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.btnSecondary__schedule:hover {
+  background-color: #D97292;
+  color: #fff;
+}
+
 /************************************ ANIMATION ******************************************/
 @keyframes animate {
   0% {
@@ -877,7 +928,7 @@ hr {
   justify-content: center;
 }
 .tabbar ul {
-  --x: 54px;
+  --x: 80px;
   margin: 0;
   padding: 0 12px;
   list-style: none;
@@ -1080,6 +1131,15 @@ hr {
     display: block;
     margin-top: 3.5rem;
   }
+  .container .container__content .container__card {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+  .container .container__content .container__card .article .card .card__film .card__img {
+    max-height: 215px;
+    max-width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
   .container .container__content .container__card .article .card .info__invert {
     flex-direction: row;
   }
@@ -1094,6 +1154,62 @@ hr {
   }
   .container .schedule .schedule__content .tabbar ul li {
     padding: 0 1.5rem;
+  }
+  .container .schedule .schedule__content .schedule__list .schedule__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+    border-bottom: 1px solid #D97292;
+  }
+  .container .schedule .schedule__content .schedule__list .schedule__item .schedule__desc {
+    width: 100%;
+    justify-content: center;
+  }
+  .container .schedule .schedule__content .schedule__list .schedule__item .schedule__desc .schedule__forward {
+    display: none;
+  }
+  .container .schedule .schedule__content .schedule__list .schedule__item .btnSecondary__schedule {
+    margin: 0;
+    width: -moz-fit-content;
+    width: fit-content;
+    text-wrap: nowrap;
+  }
+  .container .schedule .schedule__content .schedule__list .schedule__item h3, .container .schedule .schedule__content .schedule__list .schedule__item p {
+    width: 100%;
+  }
+  .container .schedule .schedule__content .schedule__list .schedule__item .schedule__hour {
+    text-align: center;
+  }
+  .footer .footer__content {
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .footer .footer__content .footer__desc {
+    width: 50%;
+  }
+  .footer .footer__content .footer__desc h1 {
+    margin-bottom: 1.5rem;
+  }
+  .footer .footer__content .footer__metadata {
+    width: 50%;
+  }
+  .footer .footer__content .footer__metadata .footer__rrss {
+    padding: 0 0;
+    gap: 2rem;
+    justify-content: flex-end;
+  }
+  .footer .footer__content .footer__metadata .footer__rrss li a {
+    color: #404040;
+    font: 600 1rem/150% "Jost", sans-serif;
+  }
+  .footer .footer__content .footer__metadata .footer__rrss a:hover {
+    color: #fff;
+  }
+  .footer .footer__content .footer__metadata p {
+    text-align: right;
   }
 }
 @media (min-width: 1200px) {
@@ -1155,6 +1271,7 @@ hr {
     display: block;
   }
   .container .container__content .container__card {
+    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
     padding: 0 1.5rem;
   }
   .container .container__content .container__card .article {
@@ -1165,6 +1282,12 @@ hr {
     display: flex;
     flex-direction: column;
     width: 100%;
+  }
+  .container .container__content .container__card .article .card .card__film .card__img {
+    max-height: 315px;
+    max-width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .container .container__content .container__card .article .card .info__invert {
     flex-direction: row;
@@ -1194,12 +1317,18 @@ hr {
   .container .schedule {
     padding: 0 2.5rem;
   }
+  .container .schedule .schedule__content {
+    max-width: 980px;
+  }
   .container .schedule .schedule__content .tabbar ul li {
     padding: 0 2.5rem;
   }
 }
 /* XXL - only carrousel */
 @media (min-width: 1500px) {
+  .container .container__content .container__card {
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  }
   .container .container__content .carousel .carousel__inner .carousel__card {
     width: 340px;
   }
@@ -1213,6 +1342,9 @@ hr {
   }
   .container .schedule {
     padding: 0 3rem;
+  }
+  .container .schedule .schedule__content {
+    max-width: 980px;
   }
   .container .schedule .schedule__content .tabbar ul li {
     padding: 0 3rem;
