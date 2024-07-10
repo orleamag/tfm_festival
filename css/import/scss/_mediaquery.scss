@@ -71,6 +71,8 @@
                         .info__invert {
                             flex-direction: row;
                             .card__info-content {
+                                margin-right: $space-base;
+                                margin-left: 0;
                                 .card__title {
                                     text-align: left;
                                 }

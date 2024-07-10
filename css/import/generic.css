@@ -291,9 +291,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 26px;
+  font-size: 24px;
   animation-delay: -0.2s;
-  left: 268px;
+  left: 434px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(2)::before {
@@ -301,9 +301,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 23px;
+  font-size: 1px;
   animation-delay: -0.4s;
-  left: 308px;
+  left: 74px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(3)::before {
@@ -311,9 +311,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 6px;
+  font-size: 20px;
   animation-delay: -0.6s;
-  left: 306px;
+  left: 687px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(4)::before {
@@ -321,9 +321,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 9px;
+  font-size: 11px;
   animation-delay: -0.8s;
-  left: 658px;
+  left: 894px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(5)::before {
@@ -331,9 +331,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 24px;
+  font-size: 14px;
   animation-delay: -1s;
-  left: 489px;
+  left: 483px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(6)::before {
@@ -341,9 +341,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 22px;
+  font-size: 28px;
   animation-delay: -1.2s;
-  left: 175px;
+  left: 675px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(7)::before {
@@ -351,9 +351,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 23px;
+  font-size: 15px;
   animation-delay: -1.4s;
-  left: 588px;
+  left: 870px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(8)::before {
@@ -361,9 +361,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 28px;
+  font-size: 6px;
   animation-delay: -1.6s;
-  left: 365px;
+  left: 402px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(9)::before {
@@ -371,9 +371,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 30px;
+  font-size: 15px;
   animation-delay: -1.8s;
-  left: 652px;
+  left: 308px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(10)::before {
@@ -381,9 +381,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 19px;
+  font-size: 14px;
   animation-delay: -2s;
-  left: 777px;
+  left: 341px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(11)::before {
@@ -391,9 +391,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 8px;
+  font-size: 10px;
   animation-delay: -2.2s;
-  left: 814px;
+  left: 81px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(12)::before {
@@ -401,9 +401,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 4px;
+  font-size: 2px;
   animation-delay: -2.4s;
-  left: 297px;
+  left: 110px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(13)::before {
@@ -411,9 +411,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 10px;
+  font-size: 3px;
   animation-delay: -2.6s;
-  left: 418px;
+  left: 970px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(14)::before {
@@ -421,9 +421,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 12px;
+  font-size: 7px;
   animation-delay: -2.8s;
-  left: 240px;
+  left: 337px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(15)::before {
@@ -431,9 +431,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 27px;
+  font-size: 12px;
   animation-delay: -3s;
-  left: 1009px;
+  left: 913px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(16)::before {
@@ -441,9 +441,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 13px;
+  font-size: 21px;
   animation-delay: -3.2s;
-  left: 1039px;
+  left: 358px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(17)::before {
@@ -451,9 +451,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 27px;
+  font-size: 2px;
   animation-delay: -3.4s;
-  left: 826px;
+  left: 683px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(18)::before {
@@ -461,9 +461,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 10px;
+  font-size: 24px;
   animation-delay: -3.6s;
-  left: 286px;
+  left: 561px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(19)::before {
@@ -471,9 +471,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 30px;
+  font-size: 1px;
   animation-delay: -3.8s;
-  left: 319px;
+  left: 13px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(20)::before {
@@ -481,9 +481,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 18px;
+  font-size: 13px;
   animation-delay: -4s;
-  left: 472px;
+  left: 977px;
   margin-left: 15px;
 }
 
@@ -543,7 +543,7 @@ hr {
   font-size: 3rem;
   left: 0;
   bottom: 0;
-  padding: 1rem 2rem;
+  padding: 1rem;
   opacity: 0;
   transition: opacity 0.6s;
   z-index: 3;
@@ -1154,6 +1154,10 @@ hr {
   }
   .container .container__content .container__card .article .card .info__invert {
     flex-direction: row;
+  }
+  .container .container__content .container__card .article .card .info__invert .card__info-content {
+    margin-right: 1rem;
+    margin-left: 0;
   }
   .container .container__content .container__card .article .card .info__invert .card__info-content .card__title {
     text-align: left;
