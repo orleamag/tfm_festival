@@ -291,9 +291,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 24px;
+  font-size: 6px;
   animation-delay: -0.2s;
-  left: 434px;
+  left: 407px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(2)::before {
@@ -301,9 +301,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 1px;
+  font-size: 6px;
   animation-delay: -0.4s;
-  left: 74px;
+  left: 349px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(3)::before {
@@ -311,9 +311,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 20px;
+  font-size: 2px;
   animation-delay: -0.6s;
-  left: 687px;
+  left: 900px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(4)::before {
@@ -321,9 +321,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 11px;
+  font-size: 27px;
   animation-delay: -0.8s;
-  left: 894px;
+  left: 269px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(5)::before {
@@ -331,9 +331,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 14px;
+  font-size: 30px;
   animation-delay: -1s;
-  left: 483px;
+  left: 834px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(6)::before {
@@ -343,7 +343,7 @@ hr {
   box-sizing: border-box;
   font-size: 28px;
   animation-delay: -1.2s;
-  left: 675px;
+  left: 852px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(7)::before {
@@ -351,9 +351,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 15px;
+  font-size: 14px;
   animation-delay: -1.4s;
-  left: 870px;
+  left: 544px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(8)::before {
@@ -361,9 +361,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 6px;
+  font-size: 23px;
   animation-delay: -1.6s;
-  left: 402px;
+  left: 832px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(9)::before {
@@ -371,9 +371,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 15px;
+  font-size: 30px;
   animation-delay: -1.8s;
-  left: 308px;
+  left: 1030px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(10)::before {
@@ -381,9 +381,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 14px;
+  font-size: 5px;
   animation-delay: -2s;
-  left: 341px;
+  left: 367px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(11)::before {
@@ -391,9 +391,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 10px;
+  font-size: 15px;
   animation-delay: -2.2s;
-  left: 81px;
+  left: 673px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(12)::before {
@@ -401,9 +401,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 2px;
+  font-size: 5px;
   animation-delay: -2.4s;
-  left: 110px;
+  left: 62px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(13)::before {
@@ -411,9 +411,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 3px;
+  font-size: 17px;
   animation-delay: -2.6s;
-  left: 970px;
+  left: 598px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(14)::before {
@@ -423,7 +423,7 @@ hr {
   box-sizing: border-box;
   font-size: 7px;
   animation-delay: -2.8s;
-  left: 337px;
+  left: 529px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(15)::before {
@@ -431,9 +431,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 12px;
+  font-size: 24px;
   animation-delay: -3s;
-  left: 913px;
+  left: 580px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(16)::before {
@@ -441,9 +441,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 21px;
+  font-size: 7px;
   animation-delay: -3.2s;
-  left: 358px;
+  left: 72px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(17)::before {
@@ -451,9 +451,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 2px;
+  font-size: 15px;
   animation-delay: -3.4s;
-  left: 683px;
+  left: 250px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(18)::before {
@@ -461,9 +461,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 24px;
+  font-size: 29px;
   animation-delay: -3.6s;
-  left: 561px;
+  left: 820px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(19)::before {
@@ -471,9 +471,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 1px;
+  font-size: 11px;
   animation-delay: -3.8s;
-  left: 13px;
+  left: 1045px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(20)::before {
@@ -481,9 +481,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 13px;
+  font-size: 4px;
   animation-delay: -4s;
-  left: 977px;
+  left: 1063px;
   margin-left: 15px;
 }
 
@@ -723,9 +723,11 @@ hr {
 }
 .container .schedule .schedule__content .show {
   display: block;
+  animation: fadeIn 1.5s forwards;
 }
 .container .schedule .schedule__content .hide {
   display: none;
+  animation: fadeOut 1.5s forwards;
 }
 
 .footer .footer__content {
@@ -751,6 +753,23 @@ hr {
   color: #fff;
 }
 
+/*********************** ANIMATIONS *************************/
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
 /************************************ BUTTONS ******************************************/
 .btn__liquid {
   position: relative;

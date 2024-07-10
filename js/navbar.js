@@ -9,7 +9,7 @@ $(".tabbar ul li a").click(function (e) {
 function setActive(nav, li, showItem) {   
     $('#schedule__calendar ul').each(function() {
         var currentId = $(this).attr('id');
-        if(currentId === showItem){
+        if(showItem.includes(currentId)){
             $(this).removeClass('hide').addClass('show');
         }
         else {
