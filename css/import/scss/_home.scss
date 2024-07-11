@@ -1,7 +1,7 @@
 .container {
-    padding-bottom: $space-l;
+    padding-bottom: 5rem;
     .container__content {
-        margin-bottom: 2rem;
+        padding: $space-m 0;
         .title {
             padding-left: $space-m;
             padding-top: $space-m;
@@ -25,10 +25,13 @@
             .article {
                 display: flex;
                 width: 100%;
+                flex-grow: 1;
                 .card {
                     display: flex;
                     flex-direction: column;
                     width: 100%;
+                    flex-grow: 1;
+                    justify-content: space-between;
                     .card__film {
                         position: relative;
                         width: 100%;
@@ -39,7 +42,7 @@
                             color: white;
                             font-size: 3rem;
                             left: 0;
-                            bottom: 0;
+                            bottom: $space-s;
                             padding: $space-base;
                             opacity: 0;
                             transition: opacity .6s;
@@ -72,6 +75,7 @@
                         justify-content: space-between;
                         align-items: flex-end;
                         padding: 1rem 0;
+                        flex-grow: 1;
                         .card__info-content {
                             margin-right: $space-base;
                             .card__title {
