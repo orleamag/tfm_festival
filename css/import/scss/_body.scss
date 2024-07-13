@@ -42,15 +42,10 @@ body {
     font: $jost-reg-16-150;
     letter-spacing: -0.0256rem;
     color: $genericText;
-    h1 {
-        font: $jost-med-24-120;
-    }
-    h2 {
-        font: $jost-med-20-120;
-    }
-    h3 {
-        font: $jost-med-18-120;
-    }
+    h1 { font: $jost-med-24-120; margin-bottom: $space-s; }
+    h2 { font: $jost-med-20-120; margin-bottom: $space-s; }
+    h3 { font: $jost-med-18-120; margin-bottom: $space-s; }
+    p {margin-bottom: $space-s;}
 }
 
 /******************************* COMPONENTS **************************/

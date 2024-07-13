@@ -57,6 +57,9 @@
     }
     .container {
         .container__content {
+            .title {
+                width: 50%;
+            }
             .container__card {
                 grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
                 .article {
