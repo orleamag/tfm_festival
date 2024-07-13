@@ -1,0 +1,98 @@
+.container {
+    .container__content {
+        .img__category {
+            width: 100%;
+            max-height: 310px;
+            object-fit: cover;
+        }
+        .title__category {
+            text-align: center;
+            margin: 0 auto;
+            margin-bottom: $space-m;
+            padding-top: $space-base;
+        }
+    }
+    .category {
+        .category__content {
+            .tabbar {
+                .category {
+                    overflow: scroll hidden;
+                    overscroll-behavior: auto;
+                    cursor: pointer;
+                    li {
+                        padding: 0 $space-l;
+                    }
+                }
+            }
+            #category__cards {
+                .category__filter {
+                    padding: $space-base $space-m;
+                    display: grid;
+                    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+                    gap: $space-m;
+                    .category__card {
+                        position: relative;
+                        height: 460px;
+                        a {
+                            img {
+                                width: 100%;
+                                max-height: 560px;
+                                overflow: hidden;
+                                object-fit: cover;
+                                height: 100%;
+                            }
+                            .category__title {
+                                position: absolute;
+                                top: 0;
+                                right: 0;
+                                background-color: $primaryBlood;
+                                color: $backgroundColor;
+                                text-transform: uppercase;
+                                padding: 1rem;
+                            }
+                            .category__metadata {
+                                position: absolute;
+                                bottom: 0;
+                                left: 0;
+                                padding: 1rem;
+                                z-index: 3;
+                                .category__director {
+                                    color: $backgroundColor;
+                                }
+                                .category__gender {
+                                    color: $backgroundColor;
+                                }
+                            }
+                            .category__overly {
+                                content: '';
+                                position: absolute;
+                                bottom: 0;
+                                width: 100%;
+                                height: 80%;
+                                background: linear-gradient(to top, $black, transparent);
+                                mix-blend-mode: multiply;
+                                z-index: 2;
+                            }
+                            .card__icon {
+                                position: absolute;
+                                right: 0;
+                                bottom: 0;
+                                padding: 1rem;
+                                rotate: 90deg;
+                                font-size: 3rem;
+                                color: white;
+                                z-index: 3;
+                            }
+                        }
+                        a:hover {
+                            .category__overly {
+                                background: linear-gradient(to top, $primaryBlood, transparent);
+                                mix-blend-mode: inherit;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
