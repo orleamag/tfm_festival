@@ -34,7 +34,7 @@
                 <article class="article">                
                     <div class="card">
                         <figure class="card__film">
-                            <a href="#">
+                            <a href="article_film.php">
                                 <span class="material-symbols-outlined card__icon">arrow_warm_up</span>
                                 <div class="card__overly"></div>
                                 <img class="card__img" src="img/films/Posesion-Infernal.webp" alt="">
@@ -181,7 +181,7 @@
                         <a href="#" >
                             <span class="material-symbols-outlined carousel__icon">arrow_warm_up</span>
                             <div class="carousel__overly"></div>
-                            <img class="carousel__img" src="img/films/chosen-dragMeToHell2.webp" alt="">
+                            <img class="carousel__img" src="img/films/DawnOfTheDead.webp" alt="">
                             <div class="carousel__info">
                                 <h1>Dawn of the dead</h1>
                                 <p>1978</p>

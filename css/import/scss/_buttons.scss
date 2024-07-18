@@ -54,7 +54,8 @@
         color: $backgroundColor;
     }
 }
-.btn__liquid-schedule {
+
+.btn__liquid-film {
     position: relative;
     padding: .5rem 1rem;
     text-decoration: none;
@@ -75,10 +76,10 @@
     }
     .liquid {
         position: absolute;
-        top: -115px;
+        top: -140px;
         left: 0;
-        width: 380px;
-        height: 470px;
+        width: 370px;
+        height: 370px;
         background: $primaryBlood;
         transition: .7s;
         &::after, &::before {
@@ -87,7 +88,7 @@
             height: 180%;
             position: absolute;
             top: 0;
-            left: 70%;
+            left: 50%;
             transform: translate(-40%, -65%);
         }
         &::before {
@@ -102,12 +103,13 @@
         }
     }
     &:hover .liquid {
-        top: -310px;
+        top: -260px;
     }
     &:hover span {
         color: $backgroundColor;
     }
 }
+
 .btnSecondary {
     position: relative;
     background-color: $backgroundColor;
@@ -136,6 +138,18 @@
     &:hover {
         background-color: $secondaryBrain;
         color: $backgroundColor;
+    }
+}
+.btn__liquid-film {
+    display: flex;
+    order: 1;
+    .liquid {
+        width: 370px;
+        height: 380px;
+        top: -150px;
+    }
+    &:hover .liquid {
+        top: -310px;
     }
 }
 

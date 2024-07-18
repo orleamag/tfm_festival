@@ -16,9 +16,13 @@
         .category__content {
             .tabbar {
                 .category {
-                    overflow: scroll hidden;
-                    overscroll-behavior: auto;
+                    --x: 60px;
+                    // overflow: scroll hidden;
+                    // overscroll-behavior: auto;
                     cursor: pointer;
+                    display: flex;
+                    justify-content: space-evenly;
+                    width: 100%;
                     li {
                         padding: 0 $space-l;
                     }
@@ -91,6 +95,14 @@
                             }
                         }
                     }
+                }
+                .show {
+                    display: grid;
+                    animation: fadeIn 1.5s forwards;
+                }
+                .hide {
+                    display: none;
+                    animation: fadeOut 1.5s forwards;
                 }
             }
         }

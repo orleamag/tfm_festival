@@ -186,6 +186,7 @@
     .resume {
         display: flex;
         justify-content: center;
+        margin-top: $space-m;
         margin-bottom: $space-l;
         .resume__fest {
             display: flex;
@@ -211,6 +212,9 @@
             >h1 {
                 padding: $space-base $space-xs;
                 text-align: center;
+            }
+            ul {
+                --x: 65px;
             }
             .schedule__list {
                 .schedule__item {
