@@ -12,7 +12,7 @@
     display: flex;
     justify-content: center;
     ul {
-        --x: 80px;
+        --x: 60px;
         margin: 0;
         padding: 0 12px;
         list-style: none;
@@ -27,7 +27,7 @@
             top: 0;
             left: var(--x);
             background: var(--primary);
-            width: 55px;
+            width: 65px;
             margin-left: -24px;
             height: 40px;
         }
