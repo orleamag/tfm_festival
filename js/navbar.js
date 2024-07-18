@@ -36,7 +36,7 @@ function setActive(nav, li, showItem) {
             $(this).removeClass('show').addClass('hide');
         }
     });
-    $('#category__cards div').each(function () {
+    $('#category__cards .category__filter').each(function () {
         var currentId = $(this).attr('id');
         if (showItem.includes(currentId)) {
             $(this).removeClass('hide').addClass('show');
