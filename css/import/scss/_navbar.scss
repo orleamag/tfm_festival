@@ -4,6 +4,7 @@
     --inactive: #99A3BA;
     --shadow: rgba(18, 22, 33, .24);
     --line: #CDD9ED;
+    --x: 60px;
     min-width: 100%;
     -webkit-tap-highlight-color: transparent;
     overflow: hidden;
@@ -11,8 +12,11 @@
     border-bottom: 1px solid var(--primary);
     display: flex;
     justify-content: center;
-    ul {
-        --x: 60px;
+    position: sticky;
+    top: 3.8rem;
+    z-index: 3;
+    background-color: $backgroundColor;
+    ul {        
         margin: 0;
         padding: 0 12px;
         list-style: none;
