@@ -37,7 +37,7 @@
                             <a href="article_film.php">
                                 <span class="material-symbols-outlined card__icon">arrow_warm_up</span>
                                 <div class="card__overly"></div>
-                                <img class="card__img" src="img/films/Posesion-Infernal.webp" alt="">
+                                <img class="card__img" src="img/films/PosesionInfernal.webp" alt="">
                             </a>
                         </figure>
                         <div class="card__info info__invert">

@@ -22,7 +22,7 @@
                     </div>
                 </div>
                 <figure class="film__img">
-                    <img src="img/films/Posesion-Infernal.webp" alt="">
+                    <img src="img/films/PosesionInfernal.webp" alt="">
                 </figure>
             </div>
             <a class="btn__liquid-film" href="#"><span>Comprar entradas</span><div class="liquid"></div></a>

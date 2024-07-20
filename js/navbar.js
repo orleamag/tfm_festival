@@ -1,3 +1,23 @@
+$(".tabbar ul li a").on('load', function (e) {
+    console.log('entro en la func');
+    // const disabledClick = [
+    //     'award',
+    //     'psicology',
+    //     'sobrenatural',
+    //     'damed',
+    //     'slasher',
+    //     'horror',
+    //     'childrens'];
+    // let link = $(this),
+    //     li = link.parent(),
+    //     showItem = $(li).attr('class');
+    // if (disabledClick.includes(showItem)) {
+    //     return false;
+    // }
+    // setActive(li.parent(), li, showItem);
+    // return false;
+});
+
 $(".tabbar ul li a").click(function (e) {
     const disabledClick = [
         'award',
