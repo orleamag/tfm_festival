@@ -1,0 +1,238 @@
+.container {
+    .checkout {
+        padding: $space-none $space-m;
+        padding-top: 5rem;
+        .checkout__title {
+            color: $primaryBlood;
+            padding: $space-m $space-none;
+        }
+        .checkout__content {
+            .film__img {
+                margin-bottom: $space-m;
+            }
+            .checkout__data {
+                background-color: $bgColorData;
+                padding: .5rem;
+                margin-bottom: $space-m;
+            }
+        }
+    }
+    .shopping {
+        padding: $space-none $space-m;
+        .shopping__film {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            hr {margin-bottom: $space-m; margin-top: $space-base;}
+            h2, p {text-align: center; margin-bottom: $space-base;}
+            .shopping__select {
+                position: relative;
+                margin-bottom: $space-m;
+                padding: $space-base $space-none;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: 100%;
+                form {
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex-direction: column;
+                    align-items: center;
+                    label {
+                        display: flex;
+                        cursor: pointer;
+                        font-weight: 500;
+                        position: relative;
+                        overflow: hidden;
+                        margin-bottom: 0.375em;
+                        input {
+                            position: absolute;
+                            left: -9999px;
+                            &:checked + span {
+                                background-color: transparent;
+                                &:before {
+                                    box-shadow: inset 0 0 0 0.2575em $backgroundColor;
+                                    background: $selected;
+                                    border: 2px solid $primaryBlood;
+                                }
+                            }
+                        }
+                        span {
+                            display: flex;
+                            align-items: center;
+                            padding: 0.375em 0.75em 0.375em 0.375em;
+                            border-radius: 99em; // or something higher...
+                            transition: 0.25s ease;
+                            &:hover {
+                                background-color: mix(#fff, $primaryBlood, 84%);
+                            }
+                            &:before {
+                                display: flex;
+                                flex-shrink: 0;
+                                content: "";
+                                background-color: #fff;
+                                width: 1.5em;
+                                height: 1.5em;
+                                border-radius: 50%;
+                                margin-right: 0.375em;
+                                transition: 0.25s ease;
+                                box-shadow: inset 0 0 0 0.125em $primaryBlood;
+                            }
+                        }
+                    }
+                }
+                .shopping__leyend {
+                    padding: $space-base $space-none;
+                    .leyend {
+                        display: flex;
+                        justify-content: center;
+                        li {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            font: $jost-lig-14-150;
+                            margin: $space-base $space-s;
+                            .leyend__color-empty, .leyend__color-select, .leyend__color-sold, .leyend__color-special {
+                                content: '';
+                                width: 0.625rem;
+                                height: 0.625rem;
+                                margin: $space-none $space-xs;
+                                border-radius: 60rem;
+                            }
+                            .leyend__color-empty {
+                                background-color: $bgColorEmpty;
+                            }
+                            .leyend__color-select {
+                                background-color: $selected;
+                            }
+                            .leyend__color-sold {
+                                background-color: $primaryBlood;
+                            }
+                            .leyend__color-special {
+                                background-color: $secondaryBrain;
+                            }
+                        }
+                    }
+                }
+                .shopping__scenario {
+                    font: $jost-med-20-120;
+                    background-color: $genericText;
+                    padding: $space-s;
+                    color: $backgroundColor;
+                    text-align: center;
+                    border-radius: 60rem;
+                    max-width: 1024px;
+                    width: 100%;
+                    margin-bottom: $space-m;
+                }
+                .more__less {
+                    display: flex;
+                    flex-direction: column;
+                    position: absolute;
+                    right: 0;
+                    bottom: 11rem;
+                    padding: $space-s;
+                    background-color: $backgroundColor;
+                    border-radius: .5rem;
+                    box-shadow: 4px 1px 10px $bgColorEmpty;
+                    gap: 1rem;
+                    .more__btn, .less__btn {
+                        border: none;
+                        background-color: transparent;
+                        cursor: pointer;
+                        span {
+                            padding: .5rem;
+                        }
+                        &:active span {
+                            color: $primaryBlood;                            
+                        }
+                        &:active {
+                            background-color: $bgColorData;
+                            border-radius: .5rem;
+                        }
+                    }
+                }
+                .shopping__seats {
+                    display: flex;
+                    overflow: scroll;
+                    width: 100%;
+                    justify-content: flex-start;
+                    gap: $space-m;
+                    padding: $space-base;
+                    margin-bottom: $space-m;
+                    .seats__rows {
+                        gap: 2.3rem;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        >li {
+                            color: $bgColorEmpty;
+                        }
+                    }
+                    .seats__group {
+                        display: flex;
+                        gap: $space-m;
+                        flex-wrap: wrap;
+                        max-width: 560px;
+                        min-width: 560px;
+                        height: auto;
+                        justify-content: center;
+                        .seat {
+                            content: '';
+                            width: 2rem;
+                            height: 2rem;
+                            border-radius: 60rem;
+                            background-color: $bgColorEmpty;
+                        }
+                        .special {
+                            background-color: $secondaryBrain;
+                        }
+                        .sold {
+                            background-color: $primaryBlood;
+                        }
+                        .selected {
+                            background-color: $selected;
+                        }
+                    }
+                }
+                .seats__select {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    .seat__selected {
+                        display: flex;
+                        flex-wrap: wrap;
+                        max-width: 560px;
+                        span {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            color: $backgroundColor;
+                            font: $jost-semb-16-150;
+                            text-transform: uppercase;
+                            width: 70px;
+                            height: 70px;
+                            background-color: $selected;
+                            padding: $space-base;
+                            border-radius: 60rem;                            
+                        }
+                    }
+                }
+            }
+            .resume__shop {
+                display: flex;
+                justify-content: center;
+                padding: $space-m $space-none;
+                margin-bottom: $space-m;
+                .btn__liquid-film {
+                    flex: auto;
+                    min-width: 15rem;
+                }
+            }
+            .shopping__disclaimer {
+                max-width: 670px;
+            }
+        }
+    }
+}

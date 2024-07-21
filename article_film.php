@@ -18,14 +18,14 @@
                         <p>Una mujer se ve inmersa en una lucha por su vida cuando un antiguo libro da a luz a demonios sedientos de sangre que se desbocan en un edificio de apartamentos de Los Ángeles.</p>
                     </div>
                     <div class="film__shop">
-                        <a class="btn__liquid-film" href="#"><span>Comprar entradas</span><div class="liquid"></div></a>
+                        <a class="btn__liquid-film" href="checkout.php"><span>Comprar entradas</span><div class="liquid"></div></a>
                     </div>
                 </div>
                 <figure class="film__img">
                     <img src="img/films/PosesionInfernal.webp" alt="">
                 </figure>
             </div>
-            <a class="btn__liquid-film" href="#"><span>Comprar entradas</span><div class="liquid"></div></a>
+            <a class="btn__liquid-film" href="checkout.php"><span>Comprar entradas</span><div class="liquid"></div></a>
             <div class="film__resume">
                 <h2>Sinopsis</h2>
                 <p>Una mujer se ve inmersa en una lucha por su vida cuando un antiguo libro da a luz a demonios sedientos de sangre que se desbocan en un edificio de apartamentos de Los Ángeles.</p>
@@ -58,8 +58,8 @@
                 <div id="technical_sheet" class="director__sheet hide">
                     <ul class="technical__data">
                         <li>Dirección: <span>Lee Cronin</span></li>
-                        <li>Reparto: <span>Alyssa Sutherland, Lily Sullivan, Morgan Davies, Nell Fisher </span></li>
-                        <li>País: <span>Estados Unidos </span></li>
+                        <li>Reparto: <span>Alyssa Sutherland, Lily Sullivan, Morgan Davies, Nell Fisher</span></li>
+                        <li>País: <span>Estados Unidos</span></li>
                         <li>Año: <span>2023</span></li>
                     </ul>
                     <ul class="technical__data">
@@ -97,7 +97,7 @@
                     <img src="img/LConinBieiek.svg" alt="">
                 </div>
                 <div class="resume__shop">
-                    <a class="btn__liquid" href="#"><span>Comprar estradas</span><div class="liquid"></div></a>
+                    <a class="btn__liquid" href="checkout.php"><span>Comprar estradas</span><div class="liquid"></div></a>
                 </div>
             </div>
         </section>
