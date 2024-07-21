@@ -618,9 +618,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 27px;
+  font-size: 24px;
   animation-delay: -0.2s;
-  left: 753px;
+  left: 364px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(2)::before {
@@ -628,9 +628,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 25px;
+  font-size: 16px;
   animation-delay: -0.4s;
-  left: 341px;
+  left: 83px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(3)::before {
@@ -638,9 +638,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 26px;
+  font-size: 18px;
   animation-delay: -0.6s;
-  left: 744px;
+  left: 944px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(4)::before {
@@ -648,9 +648,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 19px;
+  font-size: 25px;
   animation-delay: -0.8s;
-  left: 1086px;
+  left: 156px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(5)::before {
@@ -658,9 +658,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 6px;
+  font-size: 27px;
   animation-delay: -1s;
-  left: 564px;
+  left: 435px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(6)::before {
@@ -668,9 +668,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 1px;
+  font-size: 12px;
   animation-delay: -1.2s;
-  left: 493px;
+  left: 991px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(7)::before {
@@ -678,9 +678,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 1px;
   animation-delay: -1.4s;
-  left: 634px;
+  left: 856px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(8)::before {
@@ -688,9 +688,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 29px;
+  font-size: 12px;
   animation-delay: -1.6s;
-  left: 110px;
+  left: 620px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(9)::before {
@@ -698,9 +698,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 26px;
+  font-size: 15px;
   animation-delay: -1.8s;
-  left: 983px;
+  left: 63px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(10)::before {
@@ -708,9 +708,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 26px;
+  font-size: 10px;
   animation-delay: -2s;
-  left: 514px;
+  left: 427px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(11)::before {
@@ -718,9 +718,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 9px;
+  font-size: 23px;
   animation-delay: -2.2s;
-  left: 523px;
+  left: 165px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(12)::before {
@@ -728,9 +728,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 4px;
+  font-size: 8px;
   animation-delay: -2.4s;
-  left: 24px;
+  left: 853px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(13)::before {
@@ -738,9 +738,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 23px;
+  font-size: 2px;
   animation-delay: -2.6s;
-  left: 730px;
+  left: 1070px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(14)::before {
@@ -748,9 +748,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 3px;
+  font-size: 20px;
   animation-delay: -2.8s;
-  left: 977px;
+  left: 884px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(15)::before {
@@ -758,9 +758,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 22px;
+  font-size: 15px;
   animation-delay: -3s;
-  left: 244px;
+  left: 777px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(16)::before {
@@ -768,9 +768,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 1px;
+  font-size: 3px;
   animation-delay: -3.2s;
-  left: 381px;
+  left: 316px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(17)::before {
@@ -778,9 +778,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 7px;
+  font-size: 2px;
   animation-delay: -3.4s;
-  left: 251px;
+  left: 228px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(18)::before {
@@ -788,9 +788,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 5px;
+  font-size: 19px;
   animation-delay: -3.6s;
-  left: 557px;
+  left: 1058px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(19)::before {
@@ -798,9 +798,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 22px;
+  font-size: 19px;
   animation-delay: -3.8s;
-  left: 393px;
+  left: 373px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(20)::before {
@@ -808,9 +808,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 26px;
+  font-size: 24px;
   animation-delay: -4s;
-  left: 138px;
+  left: 51px;
   margin-left: 15px;
 }
 
@@ -822,6 +822,247 @@ hr {
     transform: translate(-50%, -75%) rotate(360deg);
   }
 }
+.container .checkout {
+  padding: 0 1.5rem;
+  padding-top: 5rem;
+}
+.container .checkout .checkout__title {
+  color: #9C1915;
+  padding: 1.5rem 0;
+}
+.container .checkout .checkout__content .film__img {
+  margin-bottom: 1.5rem;
+}
+.container .checkout .checkout__content .checkout__data {
+  background-color: #DBDBDB;
+  padding: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+.container .shopping {
+  padding: 0 1.5rem;
+}
+.container .shopping .shopping__film {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .shopping .shopping__film hr {
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+}
+.container .shopping .shopping__film h2, .container .shopping .shopping__film p {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.container .shopping .shopping__film .shopping__select {
+  position: relative;
+  margin-bottom: 1.5rem;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.container .shopping .shopping__film .shopping__select form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+.container .shopping .shopping__film .shopping__select form label {
+  display: flex;
+  cursor: pointer;
+  font-weight: 500;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 0.375em;
+}
+.container .shopping .shopping__film .shopping__select form label input {
+  position: absolute;
+  left: -9999px;
+}
+.container .shopping .shopping__film .shopping__select form label input:checked + span {
+  background-color: transparent;
+}
+.container .shopping .shopping__film .shopping__select form label input:checked + span:before {
+  box-shadow: inset 0 0 0 0.2575em #fff;
+  background: #0BA674;
+  border: 2px solid #9C1915;
+}
+.container .shopping .shopping__film .shopping__select form label span {
+  display: flex;
+  align-items: center;
+  padding: 0.375em 0.75em 0.375em 0.375em;
+  border-radius: 99em;
+  transition: 0.25s ease;
+}
+.container .shopping .shopping__film .shopping__select form label span:hover {
+  background-color: #efdada;
+}
+.container .shopping .shopping__film .shopping__select form label span:before {
+  display: flex;
+  flex-shrink: 0;
+  content: "";
+  background-color: #fff;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+  margin-right: 0.375em;
+  transition: 0.25s ease;
+  box-shadow: inset 0 0 0 0.125em #9C1915;
+}
+.container .shopping .shopping__film .shopping__select .shopping__leyend {
+  padding: 1rem 0;
+}
+.container .shopping .shopping__film .shopping__select .shopping__leyend .leyend {
+  display: flex;
+  justify-content: center;
+}
+.container .shopping .shopping__film .shopping__select .shopping__leyend .leyend li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: 300 0.875rem/150% "Jost", sans-serif;
+  margin: 1rem 0.5rem;
+}
+.container .shopping .shopping__film .shopping__select .shopping__leyend .leyend li .leyend__color-empty, .container .shopping .shopping__film .shopping__select .shopping__leyend .leyend li .leyend__color-select, .container .shopping .shopping__film .shopping__select .shopping__leyend .leyend li .leyend__color-sold, .container .shopping .shopping__film .shopping__select .shopping__leyend .leyend li .leyend__color-special {
+  content: "";
+  width: 0.625rem;
+  height: 0.625rem;
+  margin: 0 0.25rem;
+  border-radius: 60rem;
+}
+.container .shopping .shopping__film .shopping__select .shopping__leyend .leyend li .leyend__color-empty {
+  background-color: #A0A0A0;
+}
+.container .shopping .shopping__film .shopping__select .shopping__leyend .leyend li .leyend__color-select {
+  background-color: #0BA674;
+}
+.container .shopping .shopping__film .shopping__select .shopping__leyend .leyend li .leyend__color-sold {
+  background-color: #9C1915;
+}
+.container .shopping .shopping__film .shopping__select .shopping__leyend .leyend li .leyend__color-special {
+  background-color: #D97292;
+}
+.container .shopping .shopping__film .shopping__select .shopping__scenario {
+  font: 500 1.25rem/120% "Jost", sans-serif;
+  background-color: #404040;
+  padding: 0.5rem;
+  color: #fff;
+  text-align: center;
+  border-radius: 60rem;
+  max-width: 1024px;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+.container .shopping .shopping__film .shopping__select .more__less {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 0;
+  bottom: 11rem;
+  padding: 0.5rem;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 4px 1px 10px #A0A0A0;
+  gap: 1rem;
+}
+.container .shopping .shopping__film .shopping__select .more__less .more__btn, .container .shopping .shopping__film .shopping__select .more__less .less__btn {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.container .shopping .shopping__film .shopping__select .more__less .more__btn span, .container .shopping .shopping__film .shopping__select .more__less .less__btn span {
+  padding: 0.5rem;
+}
+.container .shopping .shopping__film .shopping__select .more__less .more__btn:active span, .container .shopping .shopping__film .shopping__select .more__less .less__btn:active span {
+  color: #9C1915;
+}
+.container .shopping .shopping__film .shopping__select .more__less .more__btn:active, .container .shopping .shopping__film .shopping__select .more__less .less__btn:active {
+  background-color: #DBDBDB;
+  border-radius: 0.5rem;
+}
+.container .shopping .shopping__film .shopping__select .shopping__seats {
+  display: flex;
+  overflow: scroll;
+  width: 100%;
+  justify-content: flex-start;
+  gap: 1.5rem;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+.container .shopping .shopping__film .shopping__select .shopping__seats .seats__rows {
+  gap: 2.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container .shopping .shopping__film .shopping__select .shopping__seats .seats__rows > li {
+  color: #A0A0A0;
+}
+.container .shopping .shopping__film .shopping__select .shopping__seats .seats__group {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  max-width: 560px;
+  min-width: 560px;
+  height: auto;
+  justify-content: center;
+}
+.container .shopping .shopping__film .shopping__select .shopping__seats .seats__group .seat {
+  content: "";
+  width: 2rem;
+  height: 2rem;
+  border-radius: 60rem;
+  background-color: #A0A0A0;
+}
+.container .shopping .shopping__film .shopping__select .shopping__seats .seats__group .special {
+  background-color: #D97292;
+}
+.container .shopping .shopping__film .shopping__select .shopping__seats .seats__group .sold {
+  background-color: #9C1915;
+}
+.container .shopping .shopping__film .shopping__select .shopping__seats .seats__group .selected {
+  background-color: #0BA674;
+}
+.container .shopping .shopping__film .shopping__select .seats__select {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .shopping .shopping__film .shopping__select .seats__select .seat__selected {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 560px;
+}
+.container .shopping .shopping__film .shopping__select .seats__select .seat__selected span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font: 600 1rem/150% "Jost", sans-serif;
+  text-transform: uppercase;
+  width: 70px;
+  height: 70px;
+  background-color: #0BA674;
+  padding: 1rem;
+  border-radius: 60rem;
+}
+.container .shopping .shopping__film .resume__shop {
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem 0;
+  margin-bottom: 1.5rem;
+}
+.container .shopping .shopping__film .resume__shop .btn__liquid-film {
+  flex: auto;
+  min-width: 15rem;
+}
+.container .shopping .shopping__film .shopping__disclaimer {
+  max-width: 670px;
+}
+
 /************************************ BUTTONS ******************************************/
 .btn__liquid {
   position: relative;
@@ -1595,6 +1836,30 @@ hr {
   .container .film__desc .director .director__sheet {
     flex-direction: row;
   }
+  .container .shopping .shopping__film .shopping__select form {
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+  .container .checkout {
+    padding: 0;
+    padding-top: 5rem;
+  }
+  .container .checkout .checkout__title {
+    padding: 1.5rem 1.5rem;
+  }
+  .container .checkout .checkout__content .film__img {
+    margin-bottom: 1.5rem;
+    height: 200px;
+  }
+  .container .checkout .checkout__content .film__img img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .container .checkout .checkout__content .checkout__data {
+    position: absolute;
+    top: 18.85rem;
+    left: 1.5rem;
+  }
   .footer .footer__content {
     padding-bottom: 1rem;
     display: flex;
@@ -1828,6 +2093,20 @@ hr {
   }
   .container .film__trailer iframe {
     height: 600px;
+  }
+  .container .shopping .shopping__film .shopping__select form {
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+  .container .shopping .shopping__film .shopping__select .shopping__seats {
+    overflow: inherit;
+    justify-content: center;
+  }
+  .container .checkout .checkout__content .film__img {
+    height: 260px;
+  }
+  .container .checkout .checkout__content .checkout__data {
+    top: 20.85rem;
   }
 }
 /*********************************************************************************************************/
