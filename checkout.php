@@ -224,7 +224,7 @@
                     </div>
                 </div>
                 <div class="resume__shop">
-                    <a class="btn__liquid-film" href="#"><span>Comprar estradas</span><div class="liquid"></div></a>
+                    <a class="btn__liquid-film checkout__open" href="#" ><span>Comprar estradas</span><div class="liquid"></div></a>
                 </div>
                 <p class="shopping__disclaimer">Por favor, revisa la película, fecha, sesión y verifica que la información mostrada en el Resumen de Compra corresponde a la que has seleccionado, ya que, no se podrá hacer cambios ni devoluciones una vez finalizada la transacción. Para modificar vuelve a las secciones superiores.</p>
             </div>

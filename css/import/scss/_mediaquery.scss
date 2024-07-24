@@ -233,6 +233,29 @@
                 }
             } 
         }
+        .paid {
+            .paid__shop {
+                .btn__liquid-film {
+                    min-width: 15rem;
+                }
+                >a {
+                    width: fit-content;
+                    min-width: 6.5rem;
+                }
+            }
+            .paid__policies {
+                form {
+                    label {
+                        span {
+                            padding: $space-base $space-xl;
+                            >a:first-child {
+                                margin-left: $space-xs;
+                            }
+                        }
+                    }
+                }
+            }
+        }
     }
 
     .footer {

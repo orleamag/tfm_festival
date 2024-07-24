@@ -2,6 +2,7 @@
     .checkout {
         padding: $space-none $space-m;
         padding-top: 5rem;
+        margin-bottom: $space-m;
         .checkout__title {
             color: $primaryBlood;
             padding: $space-m $space-none;
@@ -232,7 +233,50 @@
             }
             .shopping__disclaimer {
                 max-width: 670px;
+                font: $jost-lig-14-150;
             }
         }
+    }
+}
+.checkout__view {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: $backgroundColor;
+    width: 100%;
+    height: 100%;
+    z-index: 8;
+    overflow: auto;
+}
+.paid__checked {
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    width: 100%;
+    height: 100%;
+    background: $primaryBlood;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: $space-m;
+    .checked__close {
+        color: white;
+        font-size: 2rem;
+        text-decoration: none;
+        span {
+            font-size: $space-xl;
+        }
+        &:hover span {
+            font-size: $space-xxl;
+        }
+    }
+    h1, h2, p {
+        color: $backgroundColor;
+    }
+    .header__logo-movil {
+        width: 70px;
+        height: fit-content;
     }
 }

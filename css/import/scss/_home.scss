@@ -243,6 +243,8 @@
     }
 }
 .footer {
+    position: relative;
+    bottom: 0;
     .footer__content {
         padding-bottom: 4rem;
         background-color: $secondaryBrain;
