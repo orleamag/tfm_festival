@@ -304,6 +304,10 @@ hr {
   animation: fadeOut 1.5s forwards;
 }
 
+.footer {
+  position: relative;
+  bottom: 0;
+}
 .footer .footer__content {
   padding-bottom: 4rem;
   background-color: #D97292;
@@ -618,9 +622,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 24px;
+  font-size: 1px;
   animation-delay: -0.2s;
-  left: 364px;
+  left: 974px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(2)::before {
@@ -628,9 +632,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 24px;
   animation-delay: -0.4s;
-  left: 83px;
+  left: 812px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(3)::before {
@@ -638,9 +642,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 18px;
+  font-size: 4px;
   animation-delay: -0.6s;
-  left: 944px;
+  left: 1034px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(4)::before {
@@ -648,9 +652,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 25px;
+  font-size: 11px;
   animation-delay: -0.8s;
-  left: 156px;
+  left: 152px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(5)::before {
@@ -658,9 +662,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 27px;
+  font-size: 19px;
   animation-delay: -1s;
-  left: 435px;
+  left: 746px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(6)::before {
@@ -668,9 +672,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 12px;
+  font-size: 15px;
   animation-delay: -1.2s;
-  left: 991px;
+  left: 591px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(7)::before {
@@ -678,9 +682,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 1px;
+  font-size: 25px;
   animation-delay: -1.4s;
-  left: 856px;
+  left: 653px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(8)::before {
@@ -688,9 +692,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 12px;
+  font-size: 16px;
   animation-delay: -1.6s;
-  left: 620px;
+  left: 504px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(9)::before {
@@ -700,7 +704,7 @@ hr {
   box-sizing: border-box;
   font-size: 15px;
   animation-delay: -1.8s;
-  left: 63px;
+  left: 190px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(10)::before {
@@ -708,9 +712,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 10px;
+  font-size: 3px;
   animation-delay: -2s;
-  left: 427px;
+  left: 813px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(11)::before {
@@ -718,9 +722,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 23px;
+  font-size: 9px;
   animation-delay: -2.2s;
-  left: 165px;
+  left: 432px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(12)::before {
@@ -728,9 +732,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 8px;
+  font-size: 13px;
   animation-delay: -2.4s;
-  left: 853px;
+  left: 874px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(13)::before {
@@ -738,9 +742,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 2px;
+  font-size: 30px;
   animation-delay: -2.6s;
-  left: 1070px;
+  left: 867px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(14)::before {
@@ -748,9 +752,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 20px;
+  font-size: 18px;
   animation-delay: -2.8s;
-  left: 884px;
+  left: 904px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(15)::before {
@@ -758,9 +762,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 15px;
+  font-size: 1px;
   animation-delay: -3s;
-  left: 777px;
+  left: 265px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(16)::before {
@@ -768,9 +772,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 3px;
+  font-size: 23px;
   animation-delay: -3.2s;
-  left: 316px;
+  left: 1076px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(17)::before {
@@ -778,9 +782,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 2px;
+  font-size: 7px;
   animation-delay: -3.4s;
-  left: 228px;
+  left: 475px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(18)::before {
@@ -788,9 +792,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 19px;
+  font-size: 6px;
   animation-delay: -3.6s;
-  left: 1058px;
+  left: 30px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(19)::before {
@@ -798,9 +802,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 19px;
+  font-size: 20px;
   animation-delay: -3.8s;
-  left: 373px;
+  left: 857px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(20)::before {
@@ -808,9 +812,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 24px;
+  font-size: 7px;
   animation-delay: -4s;
-  left: 51px;
+  left: 27px;
   margin-left: 15px;
 }
 
@@ -825,6 +829,7 @@ hr {
 .container .checkout {
   padding: 0 1.5rem;
   padding-top: 5rem;
+  margin-bottom: 1.5rem;
 }
 .container .checkout .checkout__title {
   color: #9C1915;
@@ -1061,6 +1066,235 @@ hr {
 }
 .container .shopping .shopping__film .shopping__disclaimer {
   max-width: 670px;
+  font: 300 0.875rem/150% "Jost", sans-serif;
+}
+
+.checkout__view {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  z-index: 8;
+  overflow: auto;
+}
+
+.paid__checked {
+  position: fixed;
+  top: 0;
+  z-index: 9;
+  width: 100%;
+  height: 100%;
+  background: #9C1915;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+.paid__checked .checked__close {
+  color: white;
+  font-size: 2rem;
+  text-decoration: none;
+}
+.paid__checked .checked__close span {
+  font-size: 2.5rem;
+}
+.paid__checked .checked__close:hover span {
+  font-size: 3rem;
+}
+.paid__checked h1, .paid__checked h2, .paid__checked p {
+  color: #fff;
+}
+.paid__checked .header__logo-movil {
+  width: 70px;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+.container .checkout__info {
+  display: flex;
+  flex: 1 auto;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+.container .checkout__info h1 {
+  color: #9C1915;
+  text-transform: capitalize;
+  margin: 1.5rem 0;
+}
+.container .checkout__info .checkout__form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 690px;
+  padding: 1rem 1.5rem;
+  gap: 2rem;
+}
+.container .checkout__info .checkout__form .form__phone {
+  display: flex;
+  gap: 1.5rem;
+  flex: 2.78;
+}
+.container .checkout__info .checkout__form .form__phone .country input {
+  min-width: 4.5rem !important;
+  width: 4.5rem !important;
+}
+.container .checkout__info .checkout__form .form__phone .country label {
+  color: #404040;
+}
+.container .checkout__info .checkout__form .checkout__input {
+  position: relative;
+  flex: 1 auto;
+}
+.container .checkout__info .checkout__form .checkout__input input {
+  padding: 0 1rem;
+  border: 2px solid #D97292;
+  border-radius: 5px;
+  width: 100%;
+  min-width: 160px;
+  height: 2.5rem;
+  transition: all 0.5s;
+  background: transparent;
+}
+.container .checkout__info .checkout__form .checkout__input input:focus {
+  border-color: #D97292;
+  outline: none;
+  transition: all 0.5s;
+}
+.container .checkout__info .checkout__form .checkout__input input:focus ~ label, .container .checkout__info .checkout__form .checkout__input input:valid ~ label {
+  top: -15px;
+  background-color: #fff;
+  padding: 0 0.5rem;
+  font: 300 0.875rem/150% "Jost", sans-serif;
+  color: #D97292;
+  transition: all 0.5s;
+  z-index: 0;
+}
+.container .checkout__info .checkout__form .checkout__input label {
+  position: absolute;
+  background-color: #fff;
+  left: 5px;
+  padding: 0 1rem;
+  top: 0.7rem;
+  color: #A0A0A0;
+  z-index: -1;
+}
+.container .paid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 690px;
+  margin: 0 auto;
+}
+.container .paid h2 {
+  margin-bottom: 1.5rem;
+}
+.container .paid .paid__method {
+  display: flex;
+  gap: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+.container .paid .paid__method .method__select {
+  color: #404040;
+}
+.container .paid .paid__method .method__select .method__bizum, .container .paid .paid__method .method__select .method__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 145px;
+  height: 145px;
+  border: 2px solid #404040;
+  border-radius: 0.5rem;
+  opacity: 50%;
+}
+.container .paid .paid__method .method__select .method__bizum span, .container .paid .paid__method .method__select .method__bizum p, .container .paid .paid__method .method__select .method__card span, .container .paid .paid__method .method__select .method__card p {
+  color: #404040;
+  text-align: center;
+}
+.container .paid .paid__method .method__select .method__bizum span, .container .paid .paid__method .method__select .method__card span {
+  font-size: 3rem;
+}
+.container .paid .paid__method .method__select:hover .method__bizum, .container .paid .paid__method .method__select:hover .method__card {
+  opacity: 1;
+  border: 2px solid #0BA674;
+}
+.container .paid .paid__policies {
+  padding: 1rem 2rem;
+}
+.container .paid .paid__policies .policies__link {
+  color: #9C1915;
+  text-decoration: underline;
+}
+.container .paid .paid__policies .policies__link:hover {
+  text-decoration: none;
+  color: #D97292;
+}
+.container .paid .paid__policies form label {
+  cursor: pointer;
+  font: 400 1rem/120% "Jost", sans-serif;
+}
+.container .paid .paid__policies form label input {
+  position: absolute;
+  left: -9999px;
+}
+.container .paid .paid__policies form label input:checked + span {
+  background-color: transparent;
+}
+.container .paid .paid__policies form label input:checked + span:before {
+  box-shadow: inset 0 0 0 0.2575em #fff;
+  background: #0BA674;
+  border: 2px solid #9C1915;
+}
+.container .paid .paid__policies form label span {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+  text-wrap: nowrap;
+  flex-wrap: wrap;
+  transition: 0.25s ease;
+}
+.container .paid .paid__policies form label span:before {
+  display: flex;
+  flex-shrink: 0;
+  content: "";
+  background-color: #fff;
+  width: 1.5em;
+  height: 1.5em;
+  border-radius: 50%;
+  margin-right: 1rem;
+  transition: 0.25s ease;
+  box-shadow: inset 0 0 0 0.125em #9C1915;
+}
+.container .paid .paid__policies form label span a {
+  margin: 0 0.25rem;
+}
+.container .paid .paid__policies form label span > a:first-child {
+  margin-left: 2.5rem;
+}
+.container .paid .paid__shop {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: center;
+}
+.container .paid .paid__shop > a {
+  width: 100%;
+  margin: 1.5rem 0;
+  order: inherit;
+}
+.container .paid .paid__shop .shopping__disclaimer {
+  text-align: center;
+  padding: 1.5rem;
+  font: 300 0.875rem/150% "Jost", sans-serif;
+}
+.container .paid .paid__shop .disabled__link {
+  pointer-events: none;
+  opacity: 50%;
 }
 
 /************************************ BUTTONS ******************************************/
@@ -1185,6 +1419,7 @@ hr {
   padding: 0.5rem 1rem;
   z-index: 3;
   margin: 0 auto;
+  text-align: center;
 }
 .btnSecondary:hover {
   background-color: #D97292;
@@ -1859,6 +2094,20 @@ hr {
     position: absolute;
     top: 18.85rem;
     left: 1.5rem;
+  }
+  .container .paid .paid__shop .btn__liquid-film {
+    min-width: 15rem;
+  }
+  .container .paid .paid__shop > a {
+    width: -moz-fit-content;
+    width: fit-content;
+    min-width: 6.5rem;
+  }
+  .container .paid .paid__policies form label span {
+    padding: 1rem 2.5rem;
+  }
+  .container .paid .paid__policies form label span > a:first-child {
+    margin-left: 0.25rem;
   }
   .footer .footer__content {
     padding-bottom: 1rem;

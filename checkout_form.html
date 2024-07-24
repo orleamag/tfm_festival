@@ -1,0 +1,74 @@
+
+    <main class="container">
+        <section class="checkout__info">
+            <h1>Información personal</h1>
+            <form action="" class="checkout__form">
+                <div class="checkout__input" >      
+                    <input type="text" required />
+                    <!-- <span class="highlight"></span> -->
+                    <label>Nombre *</label>
+                </div>
+                <div class="checkout__input">      
+                    <input type="text" required />
+                    <!-- <span class="highlight"></span> -->
+                    <label>Apellidos *</label>
+                </div>
+                <div class="checkout__input">      
+                    <input type="email" required />
+                    <!-- <span class="highlight"></span> -->
+                    <label>Correo electrónico *</label>
+                </div>
+                <div class="form__phone">
+                    <div class="checkout__input country">      
+                        <input type="text" required disabled />
+                        <!-- <span class="highlight"></span> -->
+                        <label>+ 34</label>
+                    </div>
+                    <div class="checkout__input">      
+                        <input type="text" required />
+                        <!-- <span class="highlight"></span> -->
+                        <label>Número telefónico</label>
+                    </div>
+                </div>
+            </form>
+        </section>
+        <section class="paid">
+            <h2>Selecciona método de pago</h2>
+            <div class="paid__method">
+                <a href="#" class="method__select">
+                    <div class="method__bizum">
+                        <span class="material-symbols-outlined">credit_card</span>
+                        <p>Bizum</p>
+                    </div>
+                </a>
+                <a href="#" class="method__select">
+                    <div class="method__card">
+                        <span class="material-symbols-outlined">credit_card</span>
+                        <p>Tarjeta de crédito o débito</p>
+                    </div>
+                </a>
+            </div>
+            <div class="paid__policies">
+                <form>
+                    <label class="term_condition">
+                        <input type="radio" name="radio" id="radio_active" unchecked/>
+                        <span>He leído y estoy de acuerdo con los <a href="" class="policies__link">Política de privacidad</a> y el <a href="" class="policies__link">Aviso Legal</a>.</span>
+                    </label>
+                </form>
+            </div>
+            <div class="paid__shop">
+                <a class="btn__liquid-film disabled__link" href="#"><span>Proceder al pago</span><div class="liquid"></div></a>
+                <p class="shopping__disclaimer">Por favor, revisa los datos y verifica que la información mostrada en los campos corresponde a tus datos reales, ya que, al no ser correctos puede que no podamos conatctarte en caso de tener que hacerlo y no se podrá hacer cambios ni devoluciones una vez finalizada la transacción. Para modificar otros datos pulsa volver a la sección anterior.</p>
+                <a href="#" class="btnSecondary checkout__close">Volver</a>
+            </div>
+        </section>
+    </main>
+    <div class="paid__checked">
+        <img src="img/LogoDemoned-09.svg" alt="" class="header__logo-movil">
+        <h1>¡Gracias por su compra!</h1>
+        <h2>Enviaremos un mail con toda la información</h2>
+        <p>Disfrute de su película</p>
+        <a href="#" class="checked__close">
+            <span class="material-symbols-outlined">close</span>
+        </a>
+    </div>
