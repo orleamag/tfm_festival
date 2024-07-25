@@ -624,9 +624,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 28px;
+  font-size: 20px;
   animation-delay: -0.2s;
-  left: 481px;
+  left: 427px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(2)::before {
@@ -634,9 +634,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 10px;
+  font-size: 4px;
   animation-delay: -0.4s;
-  left: 723px;
+  left: 485px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(3)::before {
@@ -644,9 +644,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 9px;
+  font-size: 1px;
   animation-delay: -0.6s;
-  left: 897px;
+  left: 47px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(4)::before {
@@ -654,9 +654,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 5px;
+  font-size: 18px;
   animation-delay: -0.8s;
-  left: 155px;
+  left: 59px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(5)::before {
@@ -664,9 +664,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 21px;
+  font-size: 13px;
   animation-delay: -1s;
-  left: 967px;
+  left: 940px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(6)::before {
@@ -674,9 +674,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 8px;
+  font-size: 15px;
   animation-delay: -1.2s;
-  left: 493px;
+  left: 285px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(7)::before {
@@ -684,9 +684,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 21px;
+  font-size: 20px;
   animation-delay: -1.4s;
-  left: 1092px;
+  left: 615px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(8)::before {
@@ -694,9 +694,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 26px;
+  font-size: 12px;
   animation-delay: -1.6s;
-  left: 741px;
+  left: 690px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(9)::before {
@@ -704,9 +704,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 22px;
+  font-size: 9px;
   animation-delay: -1.8s;
-  left: 681px;
+  left: 977px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(10)::before {
@@ -714,9 +714,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 28px;
+  font-size: 1px;
   animation-delay: -2s;
-  left: 686px;
+  left: 1001px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(11)::before {
@@ -724,9 +724,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 5px;
+  font-size: 20px;
   animation-delay: -2.2s;
-  left: 1048px;
+  left: 37px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(12)::before {
@@ -736,7 +736,7 @@ hr {
   box-sizing: border-box;
   font-size: 6px;
   animation-delay: -2.4s;
-  left: 710px;
+  left: 437px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(13)::before {
@@ -744,9 +744,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 4px;
+  font-size: 8px;
   animation-delay: -2.6s;
-  left: 729px;
+  left: 970px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(14)::before {
@@ -754,9 +754,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 24px;
   animation-delay: -2.8s;
-  left: 838px;
+  left: 95px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(15)::before {
@@ -764,9 +764,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 6px;
+  font-size: 24px;
   animation-delay: -3s;
-  left: 507px;
+  left: 669px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(16)::before {
@@ -774,9 +774,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 28px;
+  font-size: 16px;
   animation-delay: -3.2s;
-  left: 494px;
+  left: 180px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(17)::before {
@@ -784,9 +784,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 14px;
+  font-size: 17px;
   animation-delay: -3.4s;
-  left: 673px;
+  left: 1084px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(18)::before {
@@ -794,9 +794,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 17px;
+  font-size: 23px;
   animation-delay: -3.6s;
-  left: 1004px;
+  left: 820px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(19)::before {
@@ -804,9 +804,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 19px;
+  font-size: 5px;
   animation-delay: -3.8s;
-  left: 855px;
+  left: 442px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(20)::before {
@@ -814,9 +814,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 22px;
   animation-delay: -4s;
-  left: 71px;
+  left: 1026px;
   margin-left: 15px;
 }
 
@@ -1055,8 +1055,8 @@ hr {
   color: #fff;
   font: 400 1.125rem/120% "Jost", sans-serif;
   text-transform: uppercase;
-  width: 70px;
-  height: 70px;
+  width: 5rem;
+  height: 5rem;
   background-color: #0BA674;
   padding: 1rem;
   border-radius: 60rem;
@@ -1753,6 +1753,99 @@ hr {
   font: 600 1rem/150% "Jost", sans-serif;
 }
 
+.container .contact {
+  padding-top: 5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.container .contact h1, .container .contact h2 {
+  font: 700 3rem/120% "Jost", sans-serif;
+  letter-spacing: -2px;
+  text-align: center;
+}
+.container .contact h1 {
+  text-transform: uppercase;
+  color: #9C1915;
+}
+.container .contact .contact__content {
+  display: flex;
+  gap: 1.5rem;
+  border: 2px solid #D97292;
+  border-radius: 15px;
+  padding: 1rem;
+}
+.container .contact .contact__content .contact__cartel .contact__img {
+  border-radius: 15px;
+  overflow: hidden;
+  height: auto;
+}
+.container .contact .contact__content .contact__cartel .contact__img img {
+  width: 10%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.container .contact .contact__content .contact__description .contact__form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 690px;
+  padding: 1rem 1.5rem;
+  gap: 2rem;
+}
+.container .contact .contact__content .contact__description .contact__form .form__phone {
+  display: flex;
+  gap: 1.5rem;
+  flex: 2.78;
+}
+.container .contact .contact__content .contact__description .contact__form .form__phone .country input {
+  min-width: 4.5rem !important;
+  width: 4.5rem !important;
+}
+.container .contact .contact__content .contact__description .contact__form .form__phone .country label {
+  color: #404040;
+}
+.container .contact .contact__content .contact__description .contact__form .contact__input {
+  position: relative;
+  flex: 1 auto;
+}
+.container .contact .contact__content .contact__description .contact__form .contact__input input, .container .contact .contact__content .contact__description .contact__form .contact__input textarea {
+  padding: 0 1rem;
+  border: 2px solid #D97292;
+  border-radius: 5px;
+  width: 100%;
+  min-width: 160px;
+  height: 3.5rem;
+  transition: all 0.2s;
+  background: transparent;
+}
+.container .contact .contact__content .contact__description .contact__form .contact__input input:focus, .container .contact .contact__content .contact__description .contact__form .contact__input textarea:focus {
+  border-color: #D97292;
+  outline: none;
+  transition: all 0.2s;
+}
+.container .contact .contact__content .contact__description .contact__form .contact__input input:focus ~ label, .container .contact .contact__content .contact__description .contact__form .contact__input input:valid ~ label, .container .contact .contact__content .contact__description .contact__form .contact__input textarea:focus ~ label, .container .contact .contact__content .contact__description .contact__form .contact__input textarea:valid ~ label {
+  top: -0.9375rem;
+  background-color: #fff;
+  padding: 0 0.5rem;
+  font: 300 0.875rem/150% "Jost", sans-serif;
+  color: #D97292;
+  transition: all 0.2s;
+  z-index: 0;
+}
+.container .contact .contact__content .contact__description .contact__form .contact__input label {
+  position: absolute;
+  background-color: #fff;
+  left: 5px;
+  padding: 0 1rem;
+  top: 1.2rem;
+  color: #A0A0A0;
+  z-index: -1;
+}
+.container .contact .contact__content .contact__description .contact__form .contact__input .contact__textarea {
+  min-height: 8rem;
+  padding: 1rem;
+}
+
 .footer .footer__content {
   color: #000;
 }
@@ -1780,17 +1873,12 @@ hr {
 }
 
 .tabbar {
-  --primary: #9C1915;
-  --background: white;
-  --inactive: #99A3BA;
-  --shadow: rgba(18, 22, 33, .24);
-  --line: #CDD9ED;
-  --x: 60px;
+  --x: calc(60px - 100%);
   min-width: 100%;
   -webkit-tap-highlight-color: transparent;
   overflow: hidden;
-  border-top: 2px solid var(--primary);
-  border-bottom: 1px solid var(--primary);
+  border-top: 2px solid #9C1915;
+  border-bottom: 1px solid #9C1915;
   display: flex;
   justify-content: center;
   position: sticky;
@@ -1813,7 +1901,7 @@ hr {
   position: absolute;
   top: 0;
   left: var(--x);
-  background: var(--primary);
+  background: #9C1915;
   width: 65px;
   margin-left: -24px;
   height: 40px;
@@ -1824,7 +1912,7 @@ hr {
 }
 .tabbar ul li:before, .tabbar ul li:after {
   content: "";
-  background: var(--background);
+  background: #fff;
   height: 44px;
   width: 84px;
   position: absolute;
@@ -1844,7 +1932,7 @@ hr {
   text-decoration: none;
   position: relative;
   z-index: 1;
-  color: var(--primary);
+  color: #9C1915;
   transition: transform 0.2s ease;
 }
 .tabbar ul li a:active {
@@ -1855,7 +1943,7 @@ hr {
   top: 0;
   left: 50%;
   position: absolute;
-  background: var(--primary);
+  background: #9C1915;
   border-radius: 1px;
   width: 2px;
   margin-left: -1px;
@@ -1869,7 +1957,7 @@ hr {
   height: 4px;
 }
 .tabbar ul li a div {
-  background: var(--inactive);
+  background: #99A3BA;
   width: 24px;
   height: 24px;
   margin: 0 auto 4px auto;
@@ -1885,7 +1973,7 @@ hr {
   transform: translateY(var(--y));
   position: absolute;
   transition: transform 0.4s linear;
-  background: var(--primary);
+  background: #9C1915;
 }
 .tabbar ul li a span {
   display: block;
