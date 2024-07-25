@@ -219,7 +219,7 @@
                     <div class="seats__select">
                         <h2>Butacas seleccionadas</h2>
                         <div class="seat__selected">
-                            <p class="seat__desc"> Aqui podra ver los asientos seleccionados</p>                          
+                            <p class="seat__desc"> Aquí podrá ver los asientos seleccionados</p>                          
                         </div>
                     </div>
                 </div>
