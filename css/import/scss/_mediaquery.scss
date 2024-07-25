@@ -257,6 +257,15 @@
                 }
             }
         }
+        .fest {
+            .fest__content {
+                .fest__cartel {
+                    .fest__img {
+                        height: 55rem;
+                    }
+                }
+            }
+        }
     }
 
     .footer {
@@ -574,6 +583,17 @@
                 }
             } 
         }
+        .fest {
+            .fest__content {
+                flex-direction: row;
+                align-items: center;
+                .fest__cartel {
+                    .fest__img {
+                        height: 35rem;
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -621,6 +641,20 @@
                             padding: 0 $space-xxl;
                         }
                     }
+                }
+            }
+        }
+        .fest {
+            .fest__content {
+                flex-direction: row;
+                align-items: center;
+                .fest__cartel {
+                    .fest__img {
+                        height: 65rem;
+                    }
+                }
+                .fest__description {
+                    padding: 5rem;
                 }
             }
         }
