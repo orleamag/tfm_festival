@@ -1,15 +1,10 @@
 .tabbar {
-    --primary: #9C1915;
-    --background: white;
-    --inactive: #99A3BA;
-    --shadow: rgba(18, 22, 33, .24);
-    --line: #CDD9ED;
-    --x: 60px;
+    --x: calc(60px - 100%);
     min-width: 100%;
     -webkit-tap-highlight-color: transparent;
     overflow: hidden;
-    border-top: 2px solid var(--primary);
-    border-bottom: 1px solid var(--primary);
+    border-top: 2px solid $primaryBlood;
+    border-bottom: 1px solid $primaryBlood;
     display: flex;
     justify-content: center;
     position: sticky;
@@ -30,7 +25,7 @@
             position: absolute;
             top: 0;
             left: var(--x);
-            background: var(--primary);
+            background: $primaryBlood;
             width: 65px;
             margin-left: -24px;
             height: 40px;
@@ -41,7 +36,7 @@
             &:before,
             &:after {
                 content: '';
-                background: var(--background);
+                background: $backgroundColor;
                 height: 44px;
                 width: 84px;
                 position: absolute;
@@ -61,7 +56,7 @@
                 text-decoration: none;
                 position: relative;
                 z-index: 1;
-                color: var(--primary);
+                color: $primaryBlood;
                 transition: transform .2s ease;
                 &:active {
                     transform: scale(.9);
@@ -72,7 +67,7 @@
                     top: 0;
                     left: 50%;
                     position: absolute;
-                    background: var(--primary);
+                    background: $primaryBlood;
                     border-radius: 1px;
                     width: 2px;
                     margin-left: -1px;
@@ -86,7 +81,7 @@
                     height: 4px;
                 }
                 div {
-                    background: var(--inactive);
+                    background: $inactive;
                     width: 24px;
                     height: 24px;
                     margin: 0 auto 4px auto;
@@ -101,7 +96,7 @@
                         transform: translateY(var(--y));
                         position: absolute;
                         transition: transform .4s linear;
-                        background: var(--primary);
+                        background: $primaryBlood;
                     }
                 }
                 span {

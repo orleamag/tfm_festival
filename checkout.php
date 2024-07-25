@@ -86,8 +86,8 @@
                             <li id="b-c4" class="seat"></li>
                             <li id="b-c5" class="seat"></li>
                             <li id="b-c6" class="seat"></li>
-                            <li id="b-c7" class="seat selected"></li>
-                            <li id="b-c8" class="seat selected"></li>
+                            <li id="b-c7" class="seat"></li>
+                            <li id="b-c8" class="seat"></li>
                             <li id="b-c9" class="seat"></li>
                             <li id="b-c10" class="seat"></li>
                             <li id="b-d1" class="seat"></li>
@@ -219,8 +219,7 @@
                     <div class="seats__select">
                         <h2>Butacas seleccionadas</h2>
                         <div class="seat__selected">
-                            <span>b-c7</span>
-                            <span>b-c8</span>
+                            <p class="seat__desc"> Aqui podra ver los asientos seleccionados</p>                          
                         </div>
                     </div>
                 </div>
