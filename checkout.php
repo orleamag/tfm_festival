@@ -22,11 +22,11 @@
                     <form>
                         <label>
                             <input type="radio" name="radio" checked/>
-                            <span>17 de Octubre | 15:00h</span>
+                            <span>17 de Octubre | 23:00h</span>
                         </label>
                         <label>
                             <input type="radio" name="radio"/>
-                            <span>23 de Octubre | 22:00h</span>
+                            <span>22 de Octubre | 15:00h</span>
                         </label>
                     </form>
                 </div>

@@ -60,3 +60,19 @@ function setActive(nav, li, showItem) {
     li.addClass("active");
     nav.css("--x", li.position().left + li.outerWidth() / 2 + "px");
 }
+
+$(document).ready(function(){
+	$('.up__arrow').click(function(){
+		$('body, html').animate({
+			scrollTop: '0px'
+		}, 400);
+	});
+	$(window).scroll(function(){
+		if( $(this).scrollTop() > 0 ){
+			$('.up__arrow').slideDown(150);
+		} else {
+			$('.up__arrow').slideUp(150);
+		}
+	});
+
+});

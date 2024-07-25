@@ -3,15 +3,17 @@
         color: $black;
     }
     .up__arrow {
+        display: none;
         position: fixed;
-        right: .5rem;
-        bottom: 3.5rem;
+        right: 1rem;
+        bottom: 4rem;
         z-index: 3;
         .up__arrow-drop {
             color: $primaryBlood;
             position: relative;
             font-size: 2rem;
             height: auto;
+            cursor: pointer;
         }
         .up__arrow-arrow {
             color: $backgroundColor;
@@ -19,6 +21,7 @@
             right: 7px;
             top: 8px;
             font-size: 1.1rem;
+            cursor:pointer;
         }
     }
 }
