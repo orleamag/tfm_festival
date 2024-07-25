@@ -185,6 +185,10 @@
                             height: 2rem;
                             border-radius: 60rem;
                             background-color: $bgColorEmpty;
+                            cursor: pointer;
+                            &:hover {
+                                background-color: $selected;
+                            }
                         }
                         .special {
                             background-color: $secondaryBrain;
@@ -204,13 +208,14 @@
                     .seat__selected {
                         display: flex;
                         flex-wrap: wrap;
+                        gap: $space-base;
                         max-width: 560px;
                         span {
                             display: flex;
                             justify-content: center;
                             align-items: center;
                             color: $backgroundColor;
-                            font: $jost-semb-16-150;
+                            font: $jost-reg-18-120;
                             text-transform: uppercase;
                             width: 70px;
                             height: 70px;
@@ -265,11 +270,13 @@
         color: white;
         font-size: 2rem;
         text-decoration: none;
+        transition: all .5s;
         span {
             font-size: $space-xl;
         }
         &:hover span {
-            font-size: $space-xxl;
+            rotate: 180deg;
+            transition: all .5s;
         }
     }
     h1, h2, p {

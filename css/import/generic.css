@@ -87,6 +87,7 @@ hr {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1.5rem;
+  margin-bottom: 2.5rem;
 }
 .container .container__content .container__card .desktop {
   display: none;
@@ -106,7 +107,8 @@ hr {
 .container .container__content .container__card .article .card .card__film {
   position: relative;
   width: 100%;
-  height: auto;
+  height: 100%;
+  min-height: 210px;
 }
 .container .container__content .container__card .article .card .card__film .card__icon {
   position: absolute;
@@ -587,7 +589,7 @@ hr {
 }
 .hero .drops {
   width: 140%;
-  height: 80vh;
+  height: 85vh;
   margin-top: 3rem;
   position: absolute;
   overflow: hidden;
@@ -622,9 +624,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 1px;
+  font-size: 28px;
   animation-delay: -0.2s;
-  left: 974px;
+  left: 576px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(2)::before {
@@ -632,9 +634,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 24px;
+  font-size: 14px;
   animation-delay: -0.4s;
-  left: 812px;
+  left: 721px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(3)::before {
@@ -642,9 +644,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 4px;
+  font-size: 12px;
   animation-delay: -0.6s;
-  left: 1034px;
+  left: 1003px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(4)::before {
@@ -652,9 +654,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 11px;
+  font-size: 20px;
   animation-delay: -0.8s;
-  left: 152px;
+  left: 852px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(5)::before {
@@ -662,9 +664,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 19px;
+  font-size: 6px;
   animation-delay: -1s;
-  left: 746px;
+  left: 413px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(6)::before {
@@ -672,9 +674,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 15px;
+  font-size: 16px;
   animation-delay: -1.2s;
-  left: 591px;
+  left: 690px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(7)::before {
@@ -682,9 +684,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 25px;
+  font-size: 16px;
   animation-delay: -1.4s;
-  left: 653px;
+  left: 391px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(8)::before {
@@ -692,9 +694,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 25px;
   animation-delay: -1.6s;
-  left: 504px;
+  left: 294px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(9)::before {
@@ -702,9 +704,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 15px;
+  font-size: 28px;
   animation-delay: -1.8s;
-  left: 190px;
+  left: 8px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(10)::before {
@@ -712,9 +714,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 3px;
+  font-size: 28px;
   animation-delay: -2s;
-  left: 813px;
+  left: 306px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(11)::before {
@@ -722,9 +724,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 9px;
+  font-size: 13px;
   animation-delay: -2.2s;
-  left: 432px;
+  left: 887px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(12)::before {
@@ -732,9 +734,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 13px;
+  font-size: 18px;
   animation-delay: -2.4s;
-  left: 874px;
+  left: 349px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(13)::before {
@@ -742,9 +744,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 30px;
+  font-size: 21px;
   animation-delay: -2.6s;
-  left: 867px;
+  left: 980px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(14)::before {
@@ -752,9 +754,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 18px;
+  font-size: 29px;
   animation-delay: -2.8s;
-  left: 904px;
+  left: 458px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(15)::before {
@@ -762,7 +764,7 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 1px;
+  font-size: 29px;
   animation-delay: -3s;
   left: 265px;
   margin-left: 15px;
@@ -772,9 +774,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 23px;
+  font-size: 8px;
   animation-delay: -3.2s;
-  left: 1076px;
+  left: 926px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(17)::before {
@@ -782,9 +784,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 7px;
+  font-size: 12px;
   animation-delay: -3.4s;
-  left: 475px;
+  left: 977px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(18)::before {
@@ -792,9 +794,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 6px;
+  font-size: 2px;
   animation-delay: -3.6s;
-  left: 30px;
+  left: 301px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(19)::before {
@@ -802,9 +804,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 20px;
+  font-size: 12px;
   animation-delay: -3.8s;
-  left: 857px;
+  left: 1014px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(20)::before {
@@ -812,9 +814,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 7px;
+  font-size: 4px;
   animation-delay: -4s;
-  left: 27px;
+  left: 1091px;
   margin-left: 15px;
 }
 
@@ -1021,6 +1023,10 @@ hr {
   height: 2rem;
   border-radius: 60rem;
   background-color: #A0A0A0;
+  cursor: pointer;
+}
+.container .shopping .shopping__film .shopping__select .shopping__seats .seats__group .seat:hover {
+  background-color: #0BA674;
 }
 .container .shopping .shopping__film .shopping__select .shopping__seats .seats__group .special {
   background-color: #D97292;
@@ -1039,6 +1045,7 @@ hr {
 .container .shopping .shopping__film .shopping__select .seats__select .seat__selected {
   display: flex;
   flex-wrap: wrap;
+  gap: 1rem;
   max-width: 560px;
 }
 .container .shopping .shopping__film .shopping__select .seats__select .seat__selected span {
@@ -1046,7 +1053,7 @@ hr {
   justify-content: center;
   align-items: center;
   color: #fff;
-  font: 600 1rem/150% "Jost", sans-serif;
+  font: 400 1.125rem/120% "Jost", sans-serif;
   text-transform: uppercase;
   width: 70px;
   height: 70px;
@@ -1098,12 +1105,14 @@ hr {
   color: white;
   font-size: 2rem;
   text-decoration: none;
+  transition: all 0.5s;
 }
 .paid__checked .checked__close span {
   font-size: 2.5rem;
 }
 .paid__checked .checked__close:hover span {
-  font-size: 3rem;
+  rotate: 180deg;
+  transition: all 0.5s;
 }
 .paid__checked h1, .paid__checked h2, .paid__checked p {
   color: #fff;
@@ -1156,22 +1165,22 @@ hr {
   border-radius: 5px;
   width: 100%;
   min-width: 160px;
-  height: 2.5rem;
-  transition: all 0.5s;
+  height: 3.5rem;
+  transition: all 0.2s;
   background: transparent;
 }
 .container .checkout__info .checkout__form .checkout__input input:focus {
   border-color: #D97292;
   outline: none;
-  transition: all 0.5s;
+  transition: all 0.2s;
 }
 .container .checkout__info .checkout__form .checkout__input input:focus ~ label, .container .checkout__info .checkout__form .checkout__input input:valid ~ label {
-  top: -15px;
+  top: -0.9375rem;
   background-color: #fff;
   padding: 0 0.5rem;
   font: 300 0.875rem/150% "Jost", sans-serif;
   color: #D97292;
-  transition: all 0.5s;
+  transition: all 0.2s;
   z-index: 0;
 }
 .container .checkout__info .checkout__form .checkout__input label {
@@ -1179,7 +1188,7 @@ hr {
   background-color: #fff;
   left: 5px;
   padding: 0 1rem;
-  top: 0.7rem;
+  top: 1.2rem;
   color: #A0A0A0;
   z-index: -1;
 }
@@ -1965,8 +1974,11 @@ hr {
   .container .container__content .container__card {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
+  .container .container__content .container__card .article .card .card__film {
+    max-height: 300px;
+  }
   .container .container__content .container__card .article .card .card__film .card__img {
-    max-height: 215px;
+    max-height: 250px;
     max-width: 100%;
     -o-object-fit: cover;
        object-fit: cover;
@@ -2237,7 +2249,7 @@ hr {
     display: block;
   }
   .container .container__content .container__card {
-    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
     padding: 0 1.5rem;
   }
   .container .container__content .container__card .article {
@@ -2371,7 +2383,7 @@ hr {
 /*********************************************************************************************************/
 @media (min-width: 1500px) {
   .container .container__content .container__card {
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
   }
   .container .container__content .carousel .carousel__inner .carousel__card {
     width: 340px;
