@@ -1,0 +1,45 @@
+.container {
+    .fest {
+        padding-top: 5rem;
+        padding-left: $space-m;
+        padding-right: $space-m;
+        h1, h2 {
+            font: $jost-bold-48-120;
+            letter-spacing: -2px;
+            text-align: center;
+        }
+        h1 {
+            text-transform: uppercase;
+            color: $primaryBlood;
+        }
+        .fest__content {
+            display: flex;
+            flex-direction: column;
+            gap: $space-m;
+            border: 2px solid $secondaryBrain;
+            border-radius: 15px;
+            padding: $space-base;
+            .fest__cartel {
+
+                .fest__img {
+                    border-radius: 15px;
+                    overflow: hidden;
+                    height: auto;
+                    img {
+                        width: 100%;
+                        height: fit-content;
+                        object-fit: cover;
+                    }
+                }
+            }
+            .fest__description {
+
+                cite {
+                    padding: $space-m $space-none;
+                    color: $primaryBlood;
+                    font: $jost-semb-16-150;
+                }
+            }
+        }
+    }
+}
