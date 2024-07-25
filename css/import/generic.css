@@ -624,9 +624,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 28px;
+  font-size: 29px;
   animation-delay: -0.2s;
-  left: 576px;
+  left: 1011px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(2)::before {
@@ -634,9 +634,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 14px;
+  font-size: 21px;
   animation-delay: -0.4s;
-  left: 721px;
+  left: 349px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(3)::before {
@@ -646,7 +646,7 @@ hr {
   box-sizing: border-box;
   font-size: 12px;
   animation-delay: -0.6s;
-  left: 1003px;
+  left: 238px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(4)::before {
@@ -654,9 +654,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 20px;
+  font-size: 24px;
   animation-delay: -0.8s;
-  left: 852px;
+  left: 834px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(5)::before {
@@ -664,9 +664,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 6px;
+  font-size: 16px;
   animation-delay: -1s;
-  left: 413px;
+  left: 456px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(6)::before {
@@ -674,9 +674,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 29px;
   animation-delay: -1.2s;
-  left: 690px;
+  left: 1044px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(7)::before {
@@ -684,9 +684,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 16px;
+  font-size: 10px;
   animation-delay: -1.4s;
-  left: 391px;
+  left: 527px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(8)::before {
@@ -694,9 +694,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 25px;
+  font-size: 13px;
   animation-delay: -1.6s;
-  left: 294px;
+  left: 588px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(9)::before {
@@ -704,9 +704,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 28px;
+  font-size: 7px;
   animation-delay: -1.8s;
-  left: 8px;
+  left: 368px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(10)::before {
@@ -714,9 +714,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 28px;
+  font-size: 26px;
   animation-delay: -2s;
-  left: 306px;
+  left: 593px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(11)::before {
@@ -724,9 +724,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 13px;
+  font-size: 8px;
   animation-delay: -2.2s;
-  left: 887px;
+  left: 260px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(12)::before {
@@ -734,9 +734,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 18px;
+  font-size: 9px;
   animation-delay: -2.4s;
-  left: 349px;
+  left: 513px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(13)::before {
@@ -744,9 +744,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 21px;
+  font-size: 5px;
   animation-delay: -2.6s;
-  left: 980px;
+  left: 312px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(14)::before {
@@ -756,7 +756,7 @@ hr {
   box-sizing: border-box;
   font-size: 29px;
   animation-delay: -2.8s;
-  left: 458px;
+  left: 716px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(15)::before {
@@ -764,9 +764,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 29px;
+  font-size: 5px;
   animation-delay: -3s;
-  left: 265px;
+  left: 24px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(16)::before {
@@ -776,7 +776,7 @@ hr {
   box-sizing: border-box;
   font-size: 8px;
   animation-delay: -3.2s;
-  left: 926px;
+  left: 801px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(17)::before {
@@ -784,9 +784,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 12px;
+  font-size: 23px;
   animation-delay: -3.4s;
-  left: 977px;
+  left: 8px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(18)::before {
@@ -794,9 +794,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 2px;
+  font-size: 8px;
   animation-delay: -3.6s;
-  left: 301px;
+  left: 339px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(19)::before {
@@ -804,9 +804,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 12px;
+  font-size: 11px;
   animation-delay: -3.8s;
-  left: 1014px;
+  left: 911px;
   margin-left: 15px;
 }
 .hero .drops .drip:nth-child(20)::before {
@@ -814,9 +814,9 @@ hr {
   color: #9C1915;
   border-color: #9C1915;
   box-sizing: border-box;
-  font-size: 4px;
+  font-size: 12px;
   animation-delay: -4s;
-  left: 1091px;
+  left: 491px;
   margin-left: 15px;
 }
 
@@ -1717,9 +1717,10 @@ hr {
   color: #000;
 }
 .footer .up__arrow {
+  display: none;
   position: fixed;
-  right: 0.5rem;
-  bottom: 3.5rem;
+  right: 1rem;
+  bottom: 4rem;
   z-index: 3;
 }
 .footer .up__arrow .up__arrow-drop {
@@ -1727,6 +1728,7 @@ hr {
   position: relative;
   font-size: 2rem;
   height: auto;
+  cursor: pointer;
 }
 .footer .up__arrow .up__arrow-arrow {
   color: #fff;
@@ -1734,6 +1736,7 @@ hr {
   right: 7px;
   top: 8px;
   font-size: 1.1rem;
+  cursor: pointer;
 }
 
 .tabbar {
