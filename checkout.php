@@ -60,166 +60,167 @@
                             <li>H</li>
                         </ul>
                         <ul class="seats__group">
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat sold"></li>
-                            <li class="seat sold"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat selected"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat sold"></li>
-                            <li class="seat sold"></li>
-                            <li class="seat sold"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat special"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat special"></li>
+                            <li id="b-a1" class="seat"></li>
+                            <li id="b-a2" class="seat"></li>
+                            <li id="b-a3" class="seat"></li>
+                            <li id="b-a4" class="seat"></li>
+                            <li id="b-a5" class="seat"></li>
+                            <li id="b-a6" class="seat"></li>
+                            <li id="b-a7" class="seat"></li>
+                            <li id="b-a8" class="seat"></li>
+                            <li id="b-a9" class="seat"></li>
+                            <li id="b-a10" class="seat"></li>
+                            <li id="b-b1" class="seat"></li>
+                            <li id="b-b2" class="seat"></li>
+                            <li id="b-b3" class="seat"></li>
+                            <li id="b-b4" class="seat"></li>
+                            <li id="b-b5" class="seat"></li>
+                            <li id="b-b6" class="seat"></li>
+                            <li id="b-b7" class="seat"></li>
+                            <li id="b-b8" class="seat"></li>
+                            <li id="b-b9" class="seat"></li>
+                            <li id="b-b10" class="seat"></li>
+                            <li id="b-c1" class="seat"></li>
+                            <li id="b-c2" class="seat"></li>
+                            <li id="b-c3" class="seat"></li>
+                            <li id="b-c4" class="seat"></li>
+                            <li id="b-c5" class="seat"></li>
+                            <li id="b-c6" class="seat"></li>
+                            <li id="b-c7" class="seat selected"></li>
+                            <li id="b-c8" class="seat selected"></li>
+                            <li id="b-c9" class="seat"></li>
+                            <li id="b-c10" class="seat"></li>
+                            <li id="b-d1" class="seat"></li>
+                            <li id="b-d2" class="seat"></li>
+                            <li id="b-d3" class="seat"></li>
+                            <li id="b-d4" class="seat"></li>
+                            <li id="b-d5" class="seat"></li>
+                            <li id="b-d6" class="seat"></li>
+                            <li id="b-d7" class="seat sold"></li>
+                            <li id="b-d8" class="seat sold"></li>
+                            <li id="b-d9" class="seat sold"></li>
+                            <li id="b-d10" class="seat"></li>
+                            <li id="b-e1" class="seat"></li>
+                            <li id="b-e2" class="seat"></li>
+                            <li id="b-e3" class="seat"></li>
+                            <li id="b-e4" class="seat"></li>
+                            <li id="b-e5" class="seat"></li>
+                            <li id="b-e6" class="seat"></li>
+                            <li id="b-e7" class="seat"></li>
+                            <li id="b-e8" class="seat"></li>
+                            <li id="b-e9" class="seat"></li>
+                            <li id="b-e10" class="seat"></li>
+                            <li id="b-f1" class="seat"></li>
+                            <li id="b-f2" class="seat"></li>
+                            <li id="b-f3" class="seat"></li>
+                            <li id="b-f4" class="seat"></li>
+                            <li id="b-f5" class="seat"></li>
+                            <li id="b-f6" class="seat"></li>
+                            <li id="b-f7" class="seat"></li>
+                            <li id="b-f8" class="seat"></li>
+                            <li id="b-f9" class="seat"></li>
+                            <li id="b-f10" class="seat"></li>
+                            <li id="b-g1" class="seat"></li>
+                            <li id="b-g2" class="seat"></li>
+                            <li id="b-g3" class="seat"></li>
+                            <li id="b-g4" class="seat"></li>
+                            <li id="b-g5" class="seat"></li>
+                            <li id="b-g6" class="seat"></li>
+                            <li id="b-g7" class="seat"></li>
+                            <li id="b-g8" class="seat"></li>
+                            <li id="b-g9" class="seat"></li>
+                            <li id="b-g10" class="seat"></li>
+                            <li id="b-h3" class="seat special"></li>
+                            <li id="b-h4" class="seat"></li>
+                            <li id="b-h5" class="seat"></li>
+                            <li id="b-h6" class="seat"></li>
+                            <li id="b-h7" class="seat"></li>
+                            <li id="b-h8" class="seat special"></li>
                         </ul>
                         <ul class="seats__group">
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat sold"></li>
-                            <li class="seat sold"></li>
-                            <li class="seat sold"></li>
-                            <li class="seat sold"></li>
-                            <li class="seat sold"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat special"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat"></li>
-                            <li class="seat special"></li>
+                            <li id="b-a11" class="seat"></li>
+                            <li id="b-a12" class="seat"></li>
+                            <li id="b-a13" class="seat"></li>
+                            <li id="b-a14" class="seat"></li>
+                            <li id="b-a15" class="seat"></li>
+                            <li id="b-a16" class="seat"></li>
+                            <li id="b-a17" class="seat"></li>
+                            <li id="b-a18" class="seat"></li>
+                            <li id="b-a19" class="seat"></li>
+                            <li id="b-a20" class="seat"></li>
+                            <li id="b-b11" class="seat"></li>
+                            <li id="b-b12" class="seat"></li>
+                            <li id="b-b13" class="seat"></li>
+                            <li id="b-b14" class="seat"></li>
+                            <li id="b-b15" class="seat"></li>
+                            <li id="b-b16" class="seat"></li>
+                            <li id="b-b17" class="seat"></li>
+                            <li id="b-b18" class="seat"></li>
+                            <li id="b-b19" class="seat"></li>
+                            <li id="b-b20" class="seat"></li>
+                            <li id="b-c11" class="seat"></li>
+                            <li id="b-c12" class="seat"></li>
+                            <li id="b-c13" class="seat"></li>
+                            <li id="b-c14" class="seat"></li>
+                            <li id="b-c15" class="seat"></li>
+                            <li id="b-c16" class="seat"></li>
+                            <li id="b-c17" class="seat"></li>
+                            <li id="b-c18" class="seat"></li>
+                            <li id="b-c19" class="seat"></li>
+                            <li id="b-c20" class="seat"></li>
+                            <li id="b-d11" class="seat"></li>
+                            <li id="b-d12" class="seat"></li>
+                            <li id="b-d13" class="seat"></li>
+                            <li id="b-d14" class="seat"></li>
+                            <li id="b-d15" class="seat sold"></li>
+                            <li id="b-d16" class="seat sold"></li>
+                            <li id="b-d17" class="seat sold"></li>
+                            <li id="b-d18" class="seat sold"></li>
+                            <li id="b-d19" class="seat sold"></li>
+                            <li id="b-d20" class="seat"></li>
+                            <li id="b-e11" class="seat"></li>
+                            <li id="b-e12" class="seat"></li>
+                            <li id="b-e13" class="seat"></li>
+                            <li id="b-e14" class="seat"></li>
+                            <li id="b-e15" class="seat"></li>
+                            <li id="b-e16" class="seat"></li>
+                            <li id="b-e17" class="seat"></li>
+                            <li id="b-e18" class="seat"></li>
+                            <li id="b-e19" class="seat"></li>
+                            <li id="b-e20" class="seat"></li>
+                            <li id="b-f11" class="seat"></li>
+                            <li id="b-f12" class="seat"></li>
+                            <li id="b-f13" class="seat"></li>
+                            <li id="b-f14" class="seat"></li>
+                            <li id="b-f15" class="seat"></li>
+                            <li id="b-f16" class="seat"></li>
+                            <li id="b-f17" class="seat"></li>
+                            <li id="b-f18" class="seat"></li>
+                            <li id="b-f19" class="seat"></li>
+                            <li id="b-f20" class="seat"></li>
+                            <li id="b-g11" class="seat"></li>
+                            <li id="b-g12" class="seat"></li>
+                            <li id="b-g13" class="seat"></li>
+                            <li id="b-g14" class="seat"></li>
+                            <li id="b-g15" class="seat"></li>
+                            <li id="b-g16" class="seat"></li>
+                            <li id="b-g17" class="seat"></li>
+                            <li id="b-g18" class="seat"></li>
+                            <li id="b-g19" class="seat"></li>
+                            <li id="b-g20" class="seat"></li>
+                            <li id="b-h13" class="seat special"></li>
+                            <li id="b-h14" class="seat"></li>
+                            <li id="b-h15" class="seat"></li>
+                            <li id="b-h16" class="seat"></li>
+                            <li id="b-h17" class="seat"></li>
+                            <li id="b-h18" class="seat special"></li>
                         </ul>
                     </div>
                     <div class="seats__select">
                         <h2>Butacas seleccionadas</h2>
                         <div class="seat__selected">
                             <span>b-c7</span>
+                            <span>b-c8</span>
                         </div>
                     </div>
                 </div>

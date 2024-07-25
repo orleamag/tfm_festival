@@ -10,7 +10,7 @@ function carousel() {
     autoplay: false,
     speed: 1100,
     slidesToShow: 4,
-    slidesToScroll: 2,
+    slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 767,

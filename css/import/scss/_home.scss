@@ -19,6 +19,7 @@
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: $space-m;
+            margin-bottom: $space-xl;
             .desktop {
                 display: none;
             }
@@ -35,7 +36,8 @@
                     .card__film {
                         position: relative;
                         width: 100%;
-                        height: auto;
+                        height: 100%;
+                        min-height: 210px;
                         .card__icon {
                             position: absolute;
                             rotate: 90deg;

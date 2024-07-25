@@ -77,8 +77,9 @@
                 .article {
                     .card {
                         .card__film {
+                            max-height: 300px;
                             .card__img {
-                                max-height: 215px;
+                                max-height: 250px;
                                 max-width: 100%;
                                 object-fit: cover;
                             }
@@ -422,7 +423,7 @@
     .container {
         .container__content {
             .container__card {
-                grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+                grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
                 padding: 0 $space-m;
                 .article {
                     display: flex;
@@ -592,7 +593,7 @@
     .container {
         .container__content {
             .container__card {
-                grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+                grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
             }
             .carousel {
                 .carousel__inner {
